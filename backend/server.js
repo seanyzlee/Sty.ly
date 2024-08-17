@@ -9,6 +9,7 @@ const {getAndPostWeatherData} = require('./services/weatherServices');
 
 
 
+
 connectDB();
 
 const app = express();
@@ -32,6 +33,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.use("/", require('./routes/weatherRoute'));
+app.use("/", require('./routes/spotifyRoute'));
 
 const server = app.listen(PORT, () => {
   console.log("Server is running on Port:", PORT);

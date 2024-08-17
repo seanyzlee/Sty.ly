@@ -13,7 +13,6 @@ def new_dataset(entries, data):
         model='llama3.1',
         messages=[{'role': 'user', 'content': ChatPromptTemplate.from_template(PROMPT_TEMPLATE).format(entries=str(entries), data=data)}],
         stream=False,
-        format='json'
         )
 
 def csv_to_json(csv):

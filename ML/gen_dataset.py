@@ -84,17 +84,33 @@ def call_LLM_for_sun_outfit_dataset():
     annotated_data = []
     counter = 0
     for i in range(516):
-        print(len(sun_json))
         annotated_entry = new_dataset(sun_json[i])
         counter += 1
         print(f"[{counter}]Sun: {annotated_entry}")
         annotated_data.append(annotated_entry)
     write_json(annotated_data, 'datasets/clean_data/weatherHistory_nan_outfit.json')
 
+def read_json_as_df(file_path):
+    with open(file_path, 'r') as file:
+        data = json.load(file)
+    return pd.DataFrame(data)
+
+def combine_datasets():
+    rain_data = read_json_as_df('datasets/clean_data/weatherHistory_rain_outfit.json')
+    snow_data = read_json_as_df('datasets/clean_data/weatherHistory_snow_outfit.json')
+    sun_data = read_json_as_df('datasets/clean_data/weatherHistory_nan_outfit.json')
+    
+    # Combine the three datasets
+    combined_data = pd.concat([rain_data, snow_data, sun_data], ignore_index=True)
+
+    # Save the combined dataset
+    combined_data.to_json('datasets/clean_data/weatherHistory_combined_outfit.json', orient='records', lines=False)
+
 def main():
-   #call_LLM_for_rain_outfit_dataset()
-    #call_LLM_for_snow_outfit_dataset()
+    call_LLM_for_rain_outfit_dataset()
+    call_LLM_for_snow_outfit_dataset()
     call_LLM_for_sun_outfit_dataset()
+    combine_datasets()
 
 if __name__ == '__main__':
     main()

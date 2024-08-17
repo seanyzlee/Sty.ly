@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Routes, useNavigate } from 'react-route
 import './App.css';
 import Chat from './Chat'; // Import the Chat component
 import clothesSvg from './images/clothes.svg';
-/* import logo from './images/logo.png'; */
+import SignInForm from './SignInForm';
 
 function HomePage() {
   const navigate = useNavigate();
@@ -46,6 +46,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/chat" element={<Chat />} />
+        <Route path="/sign-in" element={<SignInForm />} />
       </Routes>
     </Router>
   );

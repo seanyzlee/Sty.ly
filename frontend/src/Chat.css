@@ -1,220 +1,146 @@
-/* src/Chat.css */
-
-.Chat {
-    height: 100vh;
-    color: #FFF7EF;
+.container-chat {
     display: flex;
-    flex-direction: column;
-    position: relative;
+    flex-direction: row;
+    height: 100vh;
+    background-color: #345a62;
+    font-weight: bold;
+    transition: margin-left 0.3s ease;
 }
 
-.chat-container {
+button {
+    font-weight: bold;
+}
+
+.header {
     display: flex;
-    height: 100vh;
-    transition: margin-left 0.3s ease;
+    flex-direction: column;
+    padding: 10px 40px;
+    background-color: #c3ebeb;
+    position: fixed;
+    /* Fix the header at the top */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid #345a62;
+    gap: 10px;
+    /* Border between top and bottom sections */
+}
+
+.account {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    /* Align header buttons to the right */
+}
+
+.weather-controls {
+    display: flex;
+    justify-content: space-between;
+    /* Ensure buttons are spaced out evenly */
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.weather-buttons,
+.control-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.control-buttons {
+    gap: 10px;
+    margin-left: auto;
+}
+
+.container-chat button {
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+header button {
+    color: #5c3707;
+}
+
+.weather-buttons button {
+    font-size: 18px;
+}
+
+.spotify-button {
+    bottom: 20px;
+    right: 40px;
+    position: absolute;
+    cursor: pointer;
+    margin-left: auto;
+    background: none;
+    border: none;
+    color: #7fef4e;
 }
 
 .sidebar {
     width: 250px;
-    background-color: #EEF99D;
-    display: flex;
-    flex-direction: column;
-    transition: width 0.3s ease;
-    position: relative;
-    z-index: 1000;
-    background-size: cover;
-    background-position: center;
+    background-color: #bb8444;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    transition: transform 0.3s ease;
 }
 
-.sidebar.closed {
-    width: 0;
-    overflow: hidden;
-    .sidebar-button.home {
-        background-image: url('images/home2.png');
-    }
-    .sidebar-button.toggle {
-        background-image: url('images/side2.png');
-    }
+.sidebar-closed {
+    transform: translateX(-100%);
+}
+
+.container-chat.sidebar-open {
+    margin-left: 250px;
+}
+
+.toggle {
+    top: 80px;
+    left: 20px;
 }
 
 .sidebar-button {
-    position: fixed;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1000;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 40px;
-    height: 40px;
-    transition: top 0.3s ease, left 0.3s ease, background-image 0.3s ease;
-}
-
-/* when side bar open */
-.sidebar-button.home {
-    top: 10px;
-    left: 10px;
-    background-image: url('images/home.png');
-}
-
-.sidebar-button.toggle {
-    top: 10px;
-    left: 60px;
-    background-image: url('images/side.png');
-}
-
-/* when side bar closed */
-.chat-container.sidebar-closed .sidebar-button.home {
-    top: 10px; 
-    left: 10px; 
-    background-image: url('images/home2.png'); 
-}
-
-.chat-container.sidebar-closed .sidebar-button.toggle {
-    top: 10px; 
-    left: 60px; 
-    background-image: url('images/side2.png'); 
-}
-
-.sidebar-button:hover {
-    border-radius: 5px;
-    transform: scale(1.06); /* Slight zoom on hover */
-}
-
-.chat-window {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    background-color: #546FFF;
-    transition: margin-left 0.3s ease;
-}
-
-.chat-container.sidebar-closed .chat-window {
-    margin-left: 0;
-}
-
-.chat-window h1 {
-    text-align: center;
-    margin-top: 30px;
-    color: #FFF7EF;
-    position: fixed;
-    top: 10px;
-    left: 250px;
-    width: calc(100% - 250px);
-    transition: left 0.3s ease, width 0.3s ease;
-}
-
-.chat-container.sidebar-closed .chat-window h1 {
-    left: 10px;
-    width: calc(100% - 10px);
-}
-
-.chat-body {
-    flex: 1;
-    padding: 10px;
-    overflow-y: auto;
-    margin-top: 50px;
-}
-
-.chat-footer {
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    background-color: #546FFF;
-    justify-content: center;
-}
-
-.chat-footer button {
-    margin-left: 10px;
-    color: #546FFF;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.chat-footer button:hover {
-    border-radius: 5px;
-    transform: scale(1.08);
-}
-
-/* Add this section for control center buttons */
-.control-center {
-    display: flex;
-    justify-content: center;
-    margin: 10px 0;
-    gap: 10px;
-}
-
-.control-button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    width: 40px;
-    height: 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    transition: transform 0.2s;
-}
-
-/* Add background images for each button */
-.control-button.location {
-    background-image: url('images/location.png'); 
-    right:0px;
-}
-
-.control-button.time {
-    background-image: url('images/time.png'); 
-}
-
-.control-button.date {
-    background-image: url('images/date.png'); 
-}
-
-.control-button.write {
-    background-image: url('images/write.png'); 
-}
-
-.submit {
-    background-color: #EEF99D;
-    color: #546FFF;
-    padding: 10px 15px;
-    font-weight: bold;
-    font-size: 16px;
-    border-radius: 5px;
-    position: relative;
-    left: 10px;
-    cursor: pointer;
-}
-
-/* Pop-ups */
-.popup-blob {
+    left: 40px;
+    top: 220px;
     position: absolute;
-    bottom: 80px; /* Adjust as needed to position above the button */
+    cursor: pointer;
+    margin-right: auto;
+    background: none;
+    border: none;
+}
+
+.model {
+    flex: 1;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    border-radius: 5px;
-    padding: 10px;
-    z-index: 1000; /* Ensure it appears above other elements */
+    background-color: #FCF0CC;
+    margin: 200px 120px 0 120px;
+    margin: 260px 120px 80px 120px;
 }
 
-.popup-blob input,
-.popup-blob textarea {
-    width: 100%;
-    padding: 5px;
-    border: 1px solid #546FFF;
-    border-radius: 3px;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .sidebar {
-        width: 200px;
-    }
-
-    .chat-window h1 {
-        left: 200px;
-        width: calc(100% - 200px);
-    }
+h1 {
+    color: #07255c;
 }

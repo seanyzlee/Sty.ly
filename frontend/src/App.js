@@ -1,21 +1,19 @@
-import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, useNavigate } from 'react-router-dom';
 import './App.css';
 import Chat from './Chat'; // Import the Chat component
-import clothesSvg from './images/clothes.svg'; // Import the default SVG image
-import clothes2Svg from './images/clothes2.svg'; // Import the hovered SVG image
+import clothesSvg from './images/clothes.svg';
+/* import logo from './images/logo.png'; */
 
 function HomePage() {
-  const [isHovered, setIsHovered] = useState(false);
   const navigate = useNavigate();
 
   return (
-    <div className="App" 
-         onMouseEnter={() => setIsHovered(true)} 
-         onMouseLeave={() => setIsHovered(false)}
-    >
+    <div className="App">
       <div className="container">
-        <h1>sty.ly</h1>
+        <div className="logo">
+          {/* <img src={logo} className='logo-image' alt="logo"/> */}
+          <h1>sty.ly</h1>
+        </div>
         <div className="content">
           <div className="text-container">
             <section className="section feature-1">
@@ -26,8 +24,7 @@ function HomePage() {
             </section>
           </div>
           <div className="svg-container">
-            <img src={clothesSvg} alt="Clothes" className={!isHovered ? '' : 'hidden'} />
-            <img src={clothes2Svg} alt="Clothes" className={isHovered ? '' : 'hidden'} />
+            <img src={clothesSvg} alt="Clothes" />
           </div>
         </div>
         <div className="get-started">

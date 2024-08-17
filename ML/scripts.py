@@ -37,17 +37,17 @@ def save_nan_data(data, column_name, limit=15):
     sampled_data.to_csv('datasets/weatherHistory_nan.csv', sep=',', index=False, na_rep='null')
     return True
 
-def save_random_rain_data(data, limit=500):
+def save_random_rain_data(data, limit=1000):
     rain_data = data[data['Precipitation Type'] == 'rain']
     sampled_data = rain_data.sample(n=min(limit, len(rain_data)), random_state=1)
     sampled_data.to_csv('datasets/unfiltered_clean_data/weatherHistory_rain.csv', sep=',', index=False, na_rep='null')
 
-def save_random_snow_data(data, limit=500):
+def save_random_snow_data(data, limit=1000):
     snow_data = data[data['Precipitation Type'] == 'snow']
     sampled_data = snow_data.sample(n=min(limit, len(snow_data)), random_state=1)
     sampled_data.to_csv('datasets/unfiltered_clean_data/weatherHistory_snow.csv', sep=',', index=False, na_rep='null')
 
-def save_random_nan_data(data, limit=500):
+def save_random_nan_data(data, limit=1000):
     nan_data = data[pd.isna(data['Precipitation Type'])]
     sampled_data = nan_data.sample(n=min(limit, len(nan_data)), random_state=1)
     sampled_data.to_csv('datasets/unfiltered_clean_data/weatherHistory_nan.csv', sep=',', index=False, na_rep='null')

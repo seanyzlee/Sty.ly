@@ -110,6 +110,7 @@ def main():
     call_LLM_for_rain_outfit_dataset()
     call_LLM_for_snow_outfit_dataset()
     call_LLM_for_sun_outfit_dataset()
+    combine_datasets()
 
 if __name__ == '__main__':
     main()

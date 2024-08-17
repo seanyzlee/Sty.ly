@@ -8,5 +8,18 @@
   },
   "author": "Abby W., August RM, David L., Sean L.",
   "license": "MIT",
-  "description": "Ignition Hacks 2024"
+  "description": "Ignition Hacks 2024",
+  "dependencies": {
+    "axios": "^1.7.4",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "json": "^11.0.0",
+    "lyrics-finder": "^21.7.0",
+    "mongoose": "^8.5.3",
+    "openmeteo": "^1.1.4",
+    "spotify-web-api-node": "^5.0.2"
+  }
 }

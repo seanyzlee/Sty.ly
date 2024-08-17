@@ -1,100 +1,115 @@
-// src/Chat.js
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Chat.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faHouse,
+  faArrowUpFromBracket,
+  faVolumeHigh,
+  faWrench,
+  faHeart,
+  faClockRotateLeft,
+  faMaximize,
+  faMinimize,
+} from '@fortawesome/free-solid-svg-icons';
+import { faSpotify } from '@fortawesome/free-brands-svg-icons';
 
 function Chat() {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
-  const [activePopup, setActivePopup] = useState(null);
-
   const navigate = useNavigate();
+  const [isFullScreen, setIsFullScreen] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+
+  useEffect(() => {
+    const handleFullScreenChange = () => {
+      if (document.fullscreenElement) {
+        setIsFullScreen(true);
+      } else {
+        setIsFullScreen(false);
+      }
+    };
+
+    document.addEventListener('fullscreenchange', handleFullScreenChange);
+
+    return () => {
+      document.removeEventListener('fullscreenchange', handleFullScreenChange);
+    };
+  }, []);
+
+  const handleHomeClick = () => {
+    navigate('/');
+  };
 
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
   };
 
-  const handleButtonClick = (type) => {
-    setActivePopup(activePopup === type ? null : type);
-  };
-
-  const handleInputChange = (e) => {
-    console.log(`Input for ${activePopup}:`, e.target.value);
+  const handleExpandClick = () => {
+    if (isFullScreen) {
+      document.exitFullscreen();
+    } else {
+      document.documentElement.requestFullscreen();
+    }
   };
 
   return (
-    <div className={`chat-container ${isSidebarOpen ? 'sidebar-open' : 'sidebar-closed'}`}>
-      <aside className={`sidebar ${isSidebarOpen ? '' : 'closed'}`} aria-label="Sidebar">
+    <div className={`container-chat ${isSidebarOpen ? 'sidebar-open' : ''}`}>
+      <aside className={`sidebar ${isSidebarOpen ? '' : 'sidebar-closed'}`} aria-label="Sidebar">
         {/* Sidebar content can be added here */}
       </aside>
-      <main className="chat-window">
-        <h1 className="header-text">{/* Chat title goes here */}</h1>
-        <section className="chat-body">
-          {/* Chat messages go here */}
-        </section>
-        <footer className="chat-footer">
-          <div className="control-center">
-          <div className="button-wrapper">
-              <button
-                className="control-button location"
-                aria-label="Show location"
-                onClick={() => handleButtonClick('location')}
-              />
-              {activePopup === 'location' && (
-                <div className="popup-blob">
-                  <input type="location" onChange={handleInputChange} />
-                </div>
-              )}
-            </div>
-            <div className="button-wrapper">
-              <button
-                className="control-button time"
-                aria-label="Show time"
-                onClick={() => handleButtonClick('time')}
-              />
-              {activePopup === 'time' && (
-                <div className="popup-blob">
-                  <input type="time" onChange={handleInputChange} />
-                </div>
-              )}
-            </div>
-            <div className="button-wrapper">
-              <button
-                className="control-button date"
-                aria-label="Show date"
-                onClick={() => handleButtonClick('date')}
-              />
-              {activePopup === 'date' && (
-                <div className="popup-blob">
-                  <input type="date" onChange={handleInputChange} />
-                </div>
-              )}
-            </div>
-            <div className="button-wrapper">
-              <button
-                className="control-button write"
-                aria-label="Write message"
-                onClick={() => handleButtonClick('write')}
-              />
-              {activePopup === 'write' && (
-                <div className="popup-blob">
-                  <textarea placeholder="Write your message..." onChange={handleInputChange} />
-                </div>
-              )}
-            </div>
+      <header className="header">
+        <div className="top">
+          <h1>sty.ly</h1>
+          <div className="account">
+            <button className="header-button" onClick={handleHomeClick}>
+              <FontAwesomeIcon icon={faHouse} />
+            </button>
+            <button style={{ fontSize: '20px', color: '#345a62' }} className="signin">sign in</button>
+            <button style={{ backgroundColor: '#345a62', padding: '5px 10px', borderRadius: '10px', fontSize: '20px', color: 'white' }}>sign up</button>
           </div>
-          <button className="submit" aria-label="send message">generate</button>
-        </footer>
-      </main>
+        </div>
+        <div className="button-container">
+          <div className="weather-buttons">
+            <button>summary</button>
+            <button>precipitation</button>
+            <button>temperature</button>
+            <button>humidity</button>
+          </div>
+          <div className="control-buttons">
+            <button className="header-button">
+              <FontAwesomeIcon icon={faHeart} />
+            </button>
+            <button className="header-button">
+              <FontAwesomeIcon icon={faVolumeHigh} />
+            </button>
+            <button className="header-button">
+              <FontAwesomeIcon icon={faArrowUpFromBracket} />
+            </button>
+            <button className="header-button">
+              <FontAwesomeIcon icon={faWrench} />
+            </button>
+            <button className="header-button" onClick={handleExpandClick}>
+              <FontAwesomeIcon icon={isFullScreen ? faMinimize : faMaximize} />
+            </button>
+          </div>
+        </div>
+      </header>
+
       <button
-        className="sidebar-button home"
-        onClick={() => navigate('/')}
-        aria-label="Go to home page"
-      />
-      <button
+      style={{color: '#9adfee'}}
         className="sidebar-button toggle"
         onClick={toggleSidebar}
         aria-label={isSidebarOpen ? 'Close sidebar' : 'Open sidebar'}
-      />
+      >
+        <FontAwesomeIcon icon={faClockRotateLeft} />
+      </button>
+
+      <div className="model">
+        {/* Model content goes here */}
+      </div>
+
+      <button style={{ fontSize: '32px' }} className="spotify-button">
+        <FontAwesomeIcon icon={faSpotify} />
+      </button>
     </div>
   );
 }

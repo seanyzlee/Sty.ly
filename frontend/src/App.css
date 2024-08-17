@@ -1,42 +1,126 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+body {
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 100px;
+  background-color: #629677;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section {
+  margin: 0;
+}
+
+.feature-1 {
+  color: #D7BCC8; /* Purple */
+}
+
+.feature-2 {
+  color: #FAC8CD; /* Purple */
+}
+
+.svg-container {
+  display: flex;
+  align-items: center;
+}
+
+.svg-container img {
+  width: 500px; /* Adjust the size as needed */
+  height: auto;
+}
+
+.svg-container img.hidden {
+  display: none;
+}
+
+h1 {
+  color: #f0e0f4;
+  margin: 0;
+}
+
+.get-started {
+  margin-top: -100px; /* Moves the button up */
+}
+
+.get-started button {
+  color: #629677;
+  background-color: #ffeced;
+  border: none;
+  padding: 10px 18px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top:60px;
+}
+
+.get-started button:hover {
+  border-radius: 10px;
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.more-info {
+  position: relative;
+  height: 100vh;
+  display: flex;
   text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 100px;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: #0F8B8D;
+  color: #f7b0e7;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.more-info:hover {
+  background-color: #6c489b;
+  color: #f7ffd1;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+  text-align: left;
+  font-size: 100px;
+  margin-top: 0px; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.container:hover {
+  background-color: #914D76;
 }
 
-.card {
-  padding: 2em;
+.container:hover .feature-1 {
+  color: #CEF7A0; /* Purple */
 }
 
-.read-the-docs {
-  color: #888;
+.container:hover .feature-2 {
+  color: #D4F2DB; /* Purple */
+}
+
+.container:hover .get-started button {
+  color: #914D76;
+  background-color: #aef7c5;
+}
+
+.container:hover h1 {
+  color: #dac3c3;
 }

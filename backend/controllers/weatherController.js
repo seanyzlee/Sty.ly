@@ -22,7 +22,7 @@ const getLatestWeather = async (req, res) => {
     }
 }
 
-const addWeather = async (  req, res) => {
+const addWeather = async (req, res) => {
     const { Summary, PrecipitationType, Temperature, Humidity } = req.body;
     try {
         const newWeather = new WeatherInfo({

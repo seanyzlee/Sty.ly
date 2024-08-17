@@ -1,7 +1,7 @@
-const {fetchWeatherApi} = require('openmeteo')
-const json = require('json')
+const { fetchWeatherApi } = require('openmeteo')
+const axios = require("axios");
 
-const getWeatherAPI = async () => {
+const getAndPostWeatherData = async () => {
     try {
         const params = {
             "latitude": 52.52,
@@ -10,36 +10,37 @@ const getWeatherAPI = async () => {
         };
         const url = "https://api.open-meteo.com/v1/forecast";
         const responses = await fetchWeatherApi(url, params);
-        
+
         // Helper function to form time ranges
         const range = (start, stop, step) =>
             Array.from({ length: (stop - start) / step }, (_, i) => start + i * step);
-        
+
         // Process first location. Add a for-loop for multiple locations or weather models
         const response = responses[0];
-        
+
         // Attributes for timezone and location
         const utcOffsetSeconds = response.utcOffsetSeconds();
         const timezone = response.timezone();
         const timezoneAbbreviation = response.timezoneAbbreviation();
         const latitude = response.latitude();
         const longitude = response.longitude();
-        
+
         const current = response.current();
-        
+
         // Note: The order of weather variables in the URL query and the indices below need to match!
         const weatherData = {
-            Temperature: parseFloat(current.variables(0).value()).toFixed(1),
+            Temperature: current.variables(0).value(),
             Humidity: current.variables(1).value() / 100,
             PrecipitationType: getPrecipitationType(current.variables(6).value()), // Use weatherCode here
             Summary: getWeatherCondition(current.variables(6).value()), // Use weatherCode here
         };
 
         // Process weather data
-        const processedWeatherData = processWeatherData(weatherData);
+        const processedWeatherData = await processWeatherData(weatherData);
+        postProcessedData(processedWeatherData); 
         return processedWeatherData;
 
-        
+
     } catch (error) {
         console.log(error);
     }
@@ -121,17 +122,35 @@ const getPrecipitationType = (weatherCode) => {
     }
 }
 
-const processWeatherData = (data) => {
+const processWeatherData = async (data) => {
     const cleanedData = {
         Summary: data.Summary,
         PrecipitationType: data.PrecipitationType,
-        Temperature: parseFloat(data.Temperature).toFixed(1), 
-        Humidity: parseFloat(data.Humidity) };
+        Temperature: parseFloat(data.Temperature).toFixed(1),
+        Humidity: parseFloat(data.Humidity)
+    };
 
-    return cleanedData
+    
+
+     return cleanedData
 }
+const postProcessedData = async (data) => {
+    try {
+        const response = await axios.post('http://localhost:5050/addWeather', data, {
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        });
+        console.log('Response:', response.data);
+    } catch (error) {
+        console.error('Error posting data:', error);
+    }
+};
 
 
 
 
-module.exports = { getWeatherAPI };
+
+
+
+module.exports = { getAndPostWeatherData };

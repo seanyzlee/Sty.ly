@@ -45,6 +45,18 @@ button {
     /* Align header buttons to the right */
 }
 
+.popup {
+    position: fixed;
+    top: 200px;
+    right: 20px;
+    background-color: #1d3162;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    z-index: 20;
+  }
+  
 .weather-controls {
     display: flex;
     justify-content: space-between;

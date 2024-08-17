@@ -4,20 +4,27 @@ import './Chat.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faHouse,
-  faArrowUpFromBracket,
   faVolumeHigh,
   faWrench,
-  faHeart,
   faClockRotateLeft,
   faMaximize,
   faMinimize,
+  faUser,
 } from '@fortawesome/free-solid-svg-icons';
 import { faSpotify } from '@fortawesome/free-brands-svg-icons';
+import { faHeart as faHeartRegular } from '@fortawesome/free-regular-svg-icons';
+import { faHeart as faHeartSolid } from '@fortawesome/free-solid-svg-icons';
 
 function Chat() {
   const navigate = useNavigate();
   const [isFullScreen, setIsFullScreen] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isFilled, setIsFilled] = useState(false);
+  const [isPopupVisible, setIsPopupVisible] = useState(false);
+
+  const toggleHeart = () => {
+    setIsFilled(!isFilled);
+  };
 
   useEffect(() => {
     const handleFullScreenChange = () => {
@@ -51,6 +58,15 @@ function Chat() {
     }
   };
 
+  const goToSignIn = () => {
+    navigate('/sign-in');
+  };
+
+  const handleWrenchClick = () => {
+    setIsPopupVisible(true);
+    setTimeout(() => setIsPopupVisible(false), 3000); // Hide popup after 3 seconds
+  };
+
   return (
     <div className={`container-chat ${isSidebarOpen ? 'sidebar-open' : ''}`}>
       <aside className={`sidebar ${isSidebarOpen ? '' : 'sidebar-closed'}`} aria-label="Sidebar">
@@ -63,8 +79,9 @@ function Chat() {
             <button className="header-button" onClick={handleHomeClick}>
               <FontAwesomeIcon icon={faHouse} />
             </button>
-            <button style={{ fontSize: '20px', color: '#345a62' }} className="signin">sign in</button>
-            <button style={{ backgroundColor: '#345a62', padding: '5px 10px', borderRadius: '10px', fontSize: '20px', color: 'white' }}>sign up</button>
+            <button className="header-button" onClick={goToSignIn}>
+              <FontAwesomeIcon icon={faUser} />
+            </button>
           </div>
         </div>
         <div className="button-container">
@@ -75,16 +92,13 @@ function Chat() {
             <button>humidity</button>
           </div>
           <div className="control-buttons">
-            <button className="header-button">
-              <FontAwesomeIcon icon={faHeart} />
+            <button className="header-button" onClick={toggleHeart}>
+              <FontAwesomeIcon icon={isFilled ? faHeartSolid : faHeartRegular} />
             </button>
             <button className="header-button">
               <FontAwesomeIcon icon={faVolumeHigh} />
             </button>
-            <button className="header-button">
-              <FontAwesomeIcon icon={faArrowUpFromBracket} />
-            </button>
-            <button className="header-button">
+            <button className="header-button" onClick={handleWrenchClick}>
               <FontAwesomeIcon icon={faWrench} />
             </button>
             <button className="header-button" onClick={handleExpandClick}>
@@ -95,13 +109,19 @@ function Chat() {
       </header>
 
       <button
-      style={{color: '#9adfee'}}
+        style={{ color: '#9adfee' }}
         className="sidebar-button toggle"
         onClick={toggleSidebar}
         aria-label={isSidebarOpen ? 'Close sidebar' : 'Open sidebar'}
       >
         <FontAwesomeIcon icon={faClockRotateLeft} />
       </button>
+
+      {isPopupVisible && (
+        <div className="popup">
+          no current updates available. stay tuned :)
+        </div>
+      )}
 
       <div className="model">
         {/* Model content goes here */}

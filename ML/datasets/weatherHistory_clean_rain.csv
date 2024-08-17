@@ -1,16 +1,16 @@
-Summary,Precipitation Type,Temperature,Humidity,Outfit
-Partly Cloudy,rain,33.9,0.41,"Waterproof boots, Light raincoat, Totes umbrella, Crop jeans"
-Mostly Cloudy,rain,13.9,0.67,"Black rainboots, Black trousers, White button-down, Overcoat"
-Partly Cloudy,rain,27.8,0.31,"Long skirt, Rainboots, Colorful umbrella,"
-Mostly Cloudy,rain,13.7,0.72,"White dress, White umbrella, White sneakers, White necklace"
-Partly Cloudy,rain,29.9,0.31,"Short sleeve sweater, Half zip sweater, White monochrome running shoes, Black hat"
-Partly Cloudy,rain,15.5,0.9,"Red sweater, Sailor overcoat, Vintage skirt, Medieval boots, Black stockings"
-Clear,rain,10.5,0.68,"Knit sweater, Ripped jeans, Black boots, Looped earrings"
-Partly Cloudy,rain,22.2,0.39,"Flannel jacket, Rainboots, Black handbag, Totes umbrella"
-Overcast,rain,1.1,0.9,"Black hoodie, Black pants, Black vest, Black backpack, Black umbrella"
-Mostly Cloudy,rain,2.3,0.84," Thermal shirt, Waterproof jacket, A warm scarf, Sturdy boots "
-Mostly Cloudy,rain,0.5,0.76," Thermal shirt, Winter vest, Winter jacket, Sturdy boots "
-Partly Cloudy,rain,31.1,0.41,"Lightweight breathable rain jacket, Quick-dry shorts, Waterproof sandals, Moisture-wicking shirt"
-Mostly Cloudy,rain,22.7,0.66,"Light breathable rain jacket, Moisture-wicking long-sleeve shirt, Lightweight pants, Waterproof sneakers"
-Overcast,rain,21.3,0.36,"Light water-resistant jacket, Breathable long-sleeve shirt, Jeans, Waterproof sneakers"
-Overcast,rain,17.2,0.87,"Warm waterproof jacket, Sweater, Thermal pants, Waterproof boots"
+Summary,Precipitation Type,Temperature,Humidity
+Partly Cloudy,rain,33.9,0.41
+Mostly Cloudy,rain,13.9,0.67
+Partly Cloudy,rain,27.8,0.31
+Mostly Cloudy,rain,13.7,0.72
+Partly Cloudy,rain,29.9,0.31
+Partly Cloudy,rain,15.5,0.9
+Clear,rain,10.5,0.68
+Partly Cloudy,rain,22.2,0.39
+Overcast,rain,1.1,0.9
+Mostly Cloudy,rain,2.3,0.84
+Mostly Cloudy,rain,0.5,0.76
+Partly Cloudy,rain,31.1,0.41
+Mostly Cloudy,rain,22.7,0.66
+Overcast,rain,21.3,0.36
+Overcast,rain,17.2,0.87

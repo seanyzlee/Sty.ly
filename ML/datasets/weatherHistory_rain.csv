@@ -1,0 +1,351 @@
+Summary,Precipitation Type,Temperature,Humidity
+Partly Cloudy,rain,33.9,0.41
+Mostly Cloudy,rain,13.9,0.67
+Partly Cloudy,rain,27.8,0.31
+Mostly Cloudy,rain,13.7,0.72
+Partly Cloudy,rain,29.9,0.31
+Partly Cloudy,rain,15.5,0.9
+Clear,rain,10.5,0.68
+Partly Cloudy,rain,22.2,0.39
+Overcast,rain,1.1,0.9
+Mostly Cloudy,rain,2.3,0.84
+Mostly Cloudy,rain,0.5,0.76
+Partly Cloudy,rain,31.1,0.41
+Mostly Cloudy,rain,22.7,0.66
+Overcast,rain,21.3,0.36
+Overcast,rain,17.2,0.87
+Partly Cloudy,rain,7.9,0.8
+Mostly Cloudy,rain,30.0,0.35
+Overcast,rain,7.6,1.0
+Overcast,rain,14.9,0.6
+Partly Cloudy,rain,27.2,0.44
+Overcast,rain,16.0,0.39
+Mostly Cloudy,rain,21.0,0.62
+Mostly Cloudy,rain,17.2,0.86
+Overcast,rain,12.2,0.3
+Partly Cloudy,rain,11.0,0.8
+Partly Cloudy,rain,22.6,0.52
+Mostly Cloudy,rain,10.0,0.86
+Partly Cloudy,rain,20.0,0.49
+Mostly Cloudy,rain,27.7,0.55
+Partly Cloudy,rain,6.4,0.95
+Mostly Cloudy,rain,10.4,0.93
+Partly Cloudy,rain,20.0,0.45
+Foggy,rain,1.0,0.99
+Overcast,rain,3.6,0.93
+Partly Cloudy,rain,12.0,0.99
+Mostly Cloudy,rain,26.0,0.44
+Partly Cloudy,rain,28.9,0.48
+Mostly Cloudy,rain,12.8,0.83
+Mostly Cloudy,rain,7.2,0.55
+Mostly Cloudy,rain,22.8,0.34
+Partly Cloudy,rain,16.7,0.86
+Partly Cloudy,rain,22.8,0.4
+Partly Cloudy,rain,22.9,0.65
+Partly Cloudy,rain,10.5,0.75
+Partly Cloudy,rain,26.2,0.42
+Clear,rain,9.9,0.89
+Overcast,rain,16.0,0.59
+Partly Cloudy,rain,10.5,0.75
+Partly Cloudy,rain,7.7,0.96
+Overcast,rain,2.2,0.86
+Overcast,rain,7.3,0.93
+Partly Cloudy,rain,29.9,0.35
+Breezy and Overcast,rain,7.8,0.76
+Mostly Cloudy,rain,16.2,0.61
+Mostly Cloudy,rain,13.2,0.72
+Mostly Cloudy,rain,32.2,0.38
+Partly Cloudy,rain,17.2,0.58
+Partly Cloudy,rain,7.2,0.92
+Mostly Cloudy,rain,9.8,0.79
+Overcast,rain,16.2,0.92
+Overcast,rain,3.0,0.95
+Partly Cloudy,rain,18.3,0.58
+Mostly Cloudy,rain,0.7,0.92
+Mostly Cloudy,rain,11.1,0.8
+Partly Cloudy,rain,9.8,0.62
+Mostly Cloudy,rain,13.7,0.9
+Partly Cloudy,rain,20.0,0.54
+Partly Cloudy,rain,22.6,0.39
+Partly Cloudy,rain,21.0,0.53
+Overcast,rain,12.2,0.52
+Clear,rain,28.9,0.29
+Partly Cloudy,rain,27.2,0.37
+Partly Cloudy,rain,31.0,0.44
+Breezy and Mostly Cloudy,rain,7.8,0.54
+Foggy,rain,2.3,1.0
+Overcast,rain,11.1,0.93
+Mostly Cloudy,rain,5.6,0.86
+Mostly Cloudy,rain,9.1,0.78
+Clear,rain,13.7,1.0
+Mostly Cloudy,rain,11.7,0.87
+Overcast,rain,10.1,0.93
+Overcast,rain,4.9,0.68
+Overcast,rain,7.7,0.99
+Partly Cloudy,rain,20.2,0.56
+Overcast,rain,1.2,0.88
+Foggy,rain,1.1,1.0
+Clear,rain,32.2,0.33
+Partly Cloudy,rain,9.5,0.77
+Breezy and Overcast,rain,7.2,0.75
+Partly Cloudy,rain,22.7,0.65
+Mostly Cloudy,rain,2.8,0.61
+Mostly Cloudy,rain,16.6,0.9
+Partly Cloudy,rain,17.2,0.63
+Partly Cloudy,rain,6.1,0.89
+Clear,rain,10.6,0.93
+Partly Cloudy,rain,31.3,0.37
+Partly Cloudy,rain,19.6,0.72
+Partly Cloudy,rain,26.1,0.55
+Partly Cloudy,rain,1.6,0.85
+Partly Cloudy,rain,18.5,0.72
+Mostly Cloudy,rain,16.3,0.84
+Mostly Cloudy,rain,28.7,0.39
+Foggy,rain,0.8,0.91
+Mostly Cloudy,rain,27.3,0.55
+Partly Cloudy,rain,2.5,0.94
+Mostly Cloudy,rain,13.9,0.95
+Mostly Cloudy,rain,11.0,0.71
+Humid and Partly Cloudy,rain,22.4,0.8
+Partly Cloudy,rain,18.0,0.93
+Overcast,rain,3.9,0.85
+Mostly Cloudy,rain,25.1,0.62
+Partly Cloudy,rain,12.2,0.93
+Mostly Cloudy,rain,2.9,0.95
+Overcast,rain,1.2,0.78
+Partly Cloudy,rain,26.0,0.37
+Mostly Cloudy,rain,22.8,0.48
+Partly Cloudy,rain,7.3,0.93
+Clear,rain,9.9,0.67
+Partly Cloudy,rain,19.9,0.61
+Clear,rain,9.1,0.83
+Mostly Cloudy,rain,5.6,0.8
+Partly Cloudy,rain,2.2,0.79
+Partly Cloudy,rain,11.8,0.85
+Clear,rain,9.0,0.51
+Mostly Cloudy,rain,13.8,0.94
+Partly Cloudy,rain,22.7,0.87
+Mostly Cloudy,rain,16.2,0.28
+Clear,rain,5.5,0.77
+Mostly Cloudy,rain,5.5,0.89
+Partly Cloudy,rain,23.9,0.54
+Partly Cloudy,rain,18.6,0.79
+Partly Cloudy,rain,22.8,0.63
+Mostly Cloudy,rain,27.2,0.39
+Partly Cloudy,rain,5.5,0.88
+Clear,rain,12.2,0.72
+Partly Cloudy,rain,22.7,0.48
+Partly Cloudy,rain,31.1,0.38
+Partly Cloudy,rain,11.3,0.76
+Mostly Cloudy,rain,12.2,0.58
+Mostly Cloudy,rain,6.0,0.86
+Partly Cloudy,rain,21.5,0.62
+Mostly Cloudy,rain,24.3,0.76
+Foggy,rain,4.9,0.96
+Clear,rain,8.6,0.75
+Partly Cloudy,rain,22.7,0.66
+Partly Cloudy,rain,13.2,0.95
+Mostly Cloudy,rain,31.0,0.46
+Clear,rain,18.2,0.85
+Mostly Cloudy,rain,22.1,0.33
+Partly Cloudy,rain,16.8,0.78
+Mostly Cloudy,rain,21.0,0.88
+Mostly Cloudy,rain,4.4,0.9
+Mostly Cloudy,rain,11.2,0.86
+Overcast,rain,2.8,0.89
+Partly Cloudy,rain,16.6,0.61
+Breezy and Mostly Cloudy,rain,13.9,0.64
+Partly Cloudy,rain,17.4,0.66
+Partly Cloudy,rain,29.9,0.38
+Overcast,rain,3.3,0.79
+Partly Cloudy,rain,22.8,0.54
+Mostly Cloudy,rain,13.6,0.6
+Partly Cloudy,rain,26.2,0.47
+Clear,rain,30.0,0.34
+Partly Cloudy,rain,25.0,0.51
+Partly Cloudy,rain,4.3,0.92
+Mostly Cloudy,rain,12.3,1.0
+Mostly Cloudy,rain,1.1,0.87
+Partly Cloudy,rain,20.8,0.69
+Mostly Cloudy,rain,18.9,0.65
+Windy and Overcast,rain,10.0,0.5
+Mostly Cloudy,rain,9.2,0.9
+Clear,rain,22.2,0.87
+Overcast,rain,2.7,0.86
+Mostly Cloudy,rain,10.1,0.81
+Mostly Cloudy,rain,14.0,0.72
+Mostly Cloudy,rain,1.3,0.84
+Partly Cloudy,rain,22.2,0.55
+Partly Cloudy,rain,22.8,0.32
+Partly Cloudy,rain,10.0,0.77
+Windy and Mostly Cloudy,rain,16.0,0.72
+Mostly Cloudy,rain,11.0,0.38
+Mostly Cloudy,rain,14.9,0.43
+Partly Cloudy,rain,3.9,0.88
+Mostly Cloudy,rain,5.0,0.93
+Clear,rain,6.0,0.87
+Mostly Cloudy,rain,7.8,0.76
+Mostly Cloudy,rain,6.1,0.7
+Mostly Cloudy,rain,11.2,0.65
+Foggy,rain,7.2,1.0
+Partly Cloudy,rain,0.0,0.62
+Partly Cloudy,rain,22.2,0.31
+Overcast,rain,9.4,0.93
+Mostly Cloudy,rain,5.9,0.93
+Mostly Cloudy,rain,2.7,0.86
+Overcast,rain,6.2,0.86
+Light Rain,rain,10.2,0.96
+Mostly Cloudy,rain,9.2,0.79
+Overcast,rain,8.3,0.76
+Mostly Cloudy,rain,21.1,0.42
+Partly Cloudy,rain,12.0,0.61
+Mostly Cloudy,rain,8.8,0.82
+Mostly Cloudy,rain,18.9,0.47
+Mostly Cloudy,rain,6.2,0.86
+Mostly Cloudy,rain,21.1,0.68
+Mostly Cloudy,rain,9.9,0.67
+Foggy,rain,11.2,0.93
+Partly Cloudy,rain,22.8,0.57
+Partly Cloudy,rain,4.4,0.89
+Clear,rain,7.0,0.93
+Foggy,rain,7.2,0.93
+Partly Cloudy,rain,20.1,0.68
+Overcast,rain,10.0,0.83
+Partly Cloudy,rain,27.3,0.57
+Partly Cloudy,rain,6.0,0.86
+Mostly Cloudy,rain,13.7,0.78
+Partly Cloudy,rain,24.9,0.55
+Overcast,rain,20.0,0.84
+Overcast,rain,4.9,0.86
+Mostly Cloudy,rain,19.0,0.78
+Overcast,rain,15.7,0.89
+Mostly Cloudy,rain,22.6,0.57
+Partly Cloudy,rain,11.2,0.5
+Partly Cloudy,rain,27.2,0.28
+Mostly Cloudy,rain,17.8,0.69
+Overcast,rain,15.1,0.8
+Foggy,rain,9.8,1.0
+Overcast,rain,2.3,0.92
+Overcast,rain,5.0,0.86
+Clear,rain,12.7,0.96
+Partly Cloudy,rain,26.1,0.37
+Partly Cloudy,rain,6.2,0.93
+Mostly Cloudy,rain,8.0,0.75
+Mostly Cloudy,rain,24.4,0.3
+Mostly Cloudy,rain,17.3,0.73
+Partly Cloudy,rain,9.5,0.87
+Overcast,rain,6.6,0.93
+Foggy,rain,0.1,0.89
+Mostly Cloudy,rain,8.7,0.72
+Partly Cloudy,rain,10.4,0.67
+Partly Cloudy,rain,22.8,0.35
+Mostly Cloudy,rain,0.1,0.74
+Partly Cloudy,rain,19.9,0.78
+Foggy,rain,8.8,0.93
+Overcast,rain,17.9,0.96
+Partly Cloudy,rain,20.1,0.43
+Partly Cloudy,rain,5.0,0.76
+Partly Cloudy,rain,22.5,0.63
+Mostly Cloudy,rain,1.1,0.78
+Overcast,rain,10.9,0.73
+Mostly Cloudy,rain,4.9,0.93
+Overcast,rain,11.0,0.81
+Clear,rain,5.4,0.93
+Overcast,rain,15.6,0.44
+Rain,rain,10.8,0.93
+Overcast,rain,17.9,0.83
+Clear,rain,4.0,0.83
+Overcast,rain,12.1,0.82
+Partly Cloudy,rain,15.1,0.68
+Mostly Cloudy,rain,18.9,0.56
+Mostly Cloudy,rain,4.7,0.87
+Mostly Cloudy,rain,7.2,0.79
+Partly Cloudy,rain,24.0,0.36
+Clear,rain,4.3,0.71
+Partly Cloudy,rain,11.1,0.66
+Mostly Cloudy,rain,20.1,0.49
+Clear,rain,3.3,0.92
+Foggy,rain,0.6,0.93
+Partly Cloudy,rain,17.9,0.84
+Clear,rain,14.3,0.9
+Partly Cloudy,rain,27.8,0.45
+Partly Cloudy,rain,13.8,0.83
+Mostly Cloudy,rain,2.8,0.77
+Partly Cloudy,rain,20.0,0.9
+Partly Cloudy,rain,22.2,0.55
+Partly Cloudy,rain,19.1,0.54
+Overcast,rain,13.9,0.99
+Mostly Cloudy,rain,21.0,0.5
+Foggy,rain,6.6,0.96
+Partly Cloudy,rain,16.1,0.82
+Overcast,rain,10.0,0.89
+Overcast,rain,8.3,0.71
+Clear,rain,30.0,0.43
+Mostly Cloudy,rain,22.8,0.38
+Overcast,rain,10.2,0.91
+Partly Cloudy,rain,22.1,0.5
+Partly Cloudy,rain,6.1,0.8
+Foggy,rain,2.9,0.96
+Overcast,rain,6.1,0.86
+Partly Cloudy,rain,14.0,0.92
+Partly Cloudy,rain,8.5,0.71
+Partly Cloudy,rain,10.6,0.79
+Mostly Cloudy,rain,17.2,0.54
+Partly Cloudy,rain,19.9,0.73
+Breezy and Mostly Cloudy,rain,17.9,0.74
+Mostly Cloudy,rain,23.0,0.27
+Overcast,rain,9.8,0.87
+Overcast,rain,16.0,0.97
+Overcast,rain,20.5,0.89
+Partly Cloudy,rain,27.8,0.27
+Partly Cloudy,rain,10.0,0.93
+Partly Cloudy,rain,32.1,0.42
+Mostly Cloudy,rain,7.2,0.86
+Overcast,rain,6.2,0.93
+Mostly Cloudy,rain,7.8,0.76
+Mostly Cloudy,rain,13.9,0.51
+Partly Cloudy,rain,20.5,0.67
+Mostly Cloudy,rain,31.0,0.32
+Mostly Cloudy,rain,20.2,0.78
+Overcast,rain,6.1,0.85
+Mostly Cloudy,rain,9.0,0.77
+Overcast,rain,12.1,0.96
+Partly Cloudy,rain,12.2,0.61
+Overcast,rain,10.0,0.89
+Partly Cloudy,rain,22.3,0.39
+Partly Cloudy,rain,32.4,0.44
+Clear,rain,6.7,0.89
+Partly Cloudy,rain,27.1,0.47
+Partly Cloudy,rain,12.4,0.95
+Overcast,rain,11.0,0.62
+Partly Cloudy,rain,22.8,0.48
+Partly Cloudy,rain,14.9,0.61
+Mostly Cloudy,rain,17.8,0.93
+Mostly Cloudy,rain,23.9,0.53
+Clear,rain,20.9,0.57
+Mostly Cloudy,rain,27.3,0.51
+Overcast,rain,3.8,0.93
+Partly Cloudy,rain,22.8,0.38
+Partly Cloudy,rain,5.0,0.48
+Foggy,rain,6.0,0.94
+Foggy,rain,2.0,0.93
+Overcast,rain,7.8,0.83
+Partly Cloudy,rain,6.9,0.9
+Partly Cloudy,rain,21.2,0.41
+Foggy,rain,12.2,0.96
+Partly Cloudy,rain,28.8,0.31
+Partly Cloudy,rain,22.2,0.45
+Overcast,rain,11.1,0.93
+Clear,rain,16.6,0.84
+Mostly Cloudy,rain,18.9,0.78
+Partly Cloudy,rain,12.7,0.67
+Partly Cloudy,rain,4.0,0.8
+Foggy,rain,0.1,0.92
+Overcast,rain,15.1,0.95
+Partly Cloudy,rain,36.0,0.21
+Clear,rain,21.0,0.61
+Mostly Cloudy,rain,22.0,0.65
+Overcast,rain,23.9,0.5
+Clear,rain,0.1,0.92
+Partly Cloudy,rain,10.8,0.98
+Overcast,rain,8.4,0.87

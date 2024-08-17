@@ -37,6 +37,21 @@ def save_nan_data(data, column_name, limit=15):
     sampled_data.to_csv('ML/datasets/weatherHistory_nan.csv', sep=',', index=False, na_rep='null')
     return True
 
+def save_random_rain_data(data, limit=350):
+    rain_data = data[data['Precipitation Type'] == 'rain']
+    sampled_data = rain_data.sample(n=min(limit, len(rain_data)), random_state=1)
+    sampled_data.to_csv('ML/datasets/weatherHistory_rain.csv', sep=',', index=False, na_rep='null')
+
+def save_random_snow_data(data, limit=350):
+    snow_data = data[data['Precipitation Type'] == 'snow']
+    sampled_data = snow_data.sample(n=min(limit, len(snow_data)), random_state=1)
+    sampled_data.to_csv('ML/datasets/weatherHistory_snow.csv', sep=',', index=False, na_rep='null')
+
+def save_random_nan_data(data, limit=350):
+    nan_data = data[pd.isna(data['Precipitation Type'])]
+    sampled_data = nan_data.sample(n=min(limit, len(nan_data)), random_state=1)
+    sampled_data.to_csv('ML/datasets/weatherHistory_nan.csv', sep=',', index=False, na_rep='null')
+
 if __name__ == '__main__':
     data = read_csv('ML/datasets/weatherHistory.csv')
     data = clean_data(data)
@@ -49,4 +64,8 @@ if __name__ == '__main__':
         save_filtered_data(filtered_data, 'ML/datasets/weatherHistory_clean_{}.csv'.format(precip))
 
     save_nan_data(cleaned_data, 'Precipitation Type')
+
+    save_random_rain_data(cleaned_data)
+    save_random_snow_data(cleaned_data)
+    save_random_nan_data(cleaned_data)
 

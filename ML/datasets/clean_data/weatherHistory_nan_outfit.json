@@ -7,7 +7,7 @@
       "Temperature": 9.4,
       "Humidity": 0.65
     },
-    "output": "Waterproof jacket, T-shirt, Jeans"
+    "output": "T-shirt, Jeans"
   },
   {
     "instruction": "Give an outfit recommendation based on the provided weather data.",
@@ -17,7 +17,7 @@
       "Temperature": 15.5,
       "Humidity": 0.55
     },
-    "output": "Raincoat, Umbrella, Wool Sweater"
+    "output": "Sunglasses, Umbrella"
   },
   {
     "instruction": "Give an outfit recommendation based on the provided weather data.",
@@ -27,7 +27,7 @@
       "Temperature": 23.8,
       "Humidity": 0.4
     },
-    "output": "Sunglasses, T-shirt"
+    "output": "Light jacket, Umbrella"
   },
   {
     "instruction": "Give an outfit recommendation based on the provided weather data.",
@@ -37,7 +37,7 @@
       "Temperature": 10.0,
       "Humidity": 0.76
     },
-    "output": "Sunglasses, Umbrella"
+    "output": "Light jacket, Scarf"
   },
   {
     "instruction": "Give an outfit recommendation based on the provided weather data.",
@@ -47,7 +47,7 @@
       "Temperature": 9.4,
       "Humidity": 0.77
     },
-    "output": "Sunglasses, Umbrella, Sweater"
+    "output": "Light jacket, T-shirt, Jeans"
   },
   {
     "instruction": "Give an outfit recommendation based on the provided weather data.",
@@ -67,7 +67,7 @@
       "Temperature": 10.7,
       "Humidity": 0.77
     },
-    "output": "Light Jacket, Umbrella"
+    "output": "Lightweight jacket, Umbrella"
   },
   {
     "instruction": "Give an outfit recommendation based on the provided weather data.",
@@ -77,7 +77,7 @@
       "Temperature": 17.6,
       "Humidity": 0.57
     },
-    "output": "Sunglasses, Hat, T-shirt, Jeans"
+    "output": "Sunglasses, T-shirt"
   },
   {
     "instruction": "Give an outfit recommendation based on the provided weather data.",
@@ -87,7 +87,7 @@
       "Temperature": 5.4,
       "Humidity": 0.81
     },
-    "output": "Waterproof jacket, Umbrella, Warm sweater"
+    "output": "Sweater, Jeans, Umbrella"
   },
   {
     "instruction": "Give an outfit recommendation based on the provided weather data.",
@@ -97,6 +97,5066 @@
       "Temperature": 3.9,
       "Humidity": 0.84
     },
+    "output": "Sunglasses, T-shirt, Shorts"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 7.6,
+      "Humidity": 0.64
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 15.4,
+      "Humidity": 0.46
+    },
+    "output": "Light jacket, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 11.4,
+      "Humidity": 0.71
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 10.5,
+      "Humidity": 0.66
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 5.4,
+      "Humidity": 0.81
+    },
+    "output": "Long-sleeved shirt, Jeans, Sneakers"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Foggy",
+      "Precipitation Type": null,
+      "Temperature": 4.8,
+      "Humidity": 0.94
+    },
+    "output": "Warm sweater, Thick socks"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 13.1,
+      "Humidity": 0.76
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Foggy",
+      "Precipitation Type": null,
+      "Temperature": 6.8,
+      "Humidity": 0.94
+    },
+    "output": "Warm coat, Gloves, Scarf"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 8.3,
+      "Humidity": 0.85
+    },
+    "output": "T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 3.7,
+      "Humidity": 0.86
+    },
+    "output": "Light jacket, Socks"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 13.3,
+      "Humidity": 0.84
+    },
+    "output": "Sunglasses, T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 16.1,
+      "Humidity": 0.7
+    },
+    "output": "Lightweight Jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Foggy",
+      "Precipitation Type": null,
+      "Temperature": 7.4,
+      "Humidity": 0.93
+    },
+    "output": "Waterproof jacket, Breathable pants"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 2.3,
+      "Humidity": 0.83
+    },
+    "output": "Sunglasses, Hat, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 13.3,
+      "Humidity": 0.56
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 21.2,
+      "Humidity": 0.49
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.3,
+      "Humidity": 1.0
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 3.1,
+      "Humidity": 0.85
+    },
+    "output": "Sunglasses, T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.3,
+      "Humidity": 0.77
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 9.7,
+      "Humidity": 0.75
+    },
+    "output": "Waterproof jacket, Umbrella, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 9.4,
+      "Humidity": 0.67
+    },
+    "output": "Sunglasses, Hat, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 2.8,
+      "Humidity": 0.86
+    },
+    "output": "T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 17.4,
+      "Humidity": 0.48
+    },
+    "output": "Sunglasses, Hat, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 7.0,
+      "Humidity": 0.94
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 7.9,
+      "Humidity": 0.83
+    },
+    "output": "Sunglasses, T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 9.2,
+      "Humidity": 0.82
+    },
+    "output": "T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 12.7,
+      "Humidity": 0.67
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 13.9,
+      "Humidity": 0.58
+    },
+    "output": "Light jacket, Umbrella, Comfortable shoes"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.2,
+      "Humidity": 0.65
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 9.4,
+      "Humidity": 0.72
+    },
+    "output": "Rain Jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 17.4,
+      "Humidity": 0.68
+    },
+    "output": "Sunglasses, Lightweight Rain Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.9,
+      "Humidity": 0.47
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 9.4,
+      "Humidity": 0.77
+    },
+    "output": "Raincoat, Umbrella, Waterproof Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 8.1,
+      "Humidity": 0.75
+    },
+    "output": "Sunglasses, Umbrella, Waterproof Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 14.4,
+      "Humidity": 0.58
+    },
+    "output": "Sweater, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 11.5,
+      "Humidity": 0.71
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 7.2,
+      "Humidity": 0.76
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 7.8,
+      "Humidity": 0.85
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 9.8,
+      "Humidity": 0.9
+    },
+    "output": "Sunglasses, Hat, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 10.7,
+      "Humidity": 0.87
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 11.7,
+      "Humidity": 0.57
+    },
+    "output": "Sunglasses, T-shirt, Shorts"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 11.8,
+      "Humidity": 0.62
+    },
+    "output": "T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 4.5,
+      "Humidity": 0.95
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 9.0,
+      "Humidity": 0.83
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 10.2,
+      "Humidity": 0.74
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 15.6,
+      "Humidity": 0.72
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 9.2,
+      "Humidity": 0.81
+    },
+    "output": "T-shirt, Jeans, Sneakers"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 10.1,
+      "Humidity": 0.61
+    },
+    "output": "Breathable jacket, Jeans, Sneakers"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 5.4,
+      "Humidity": 0.7
+    },
+    "output": "Warm hat, Gloves"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 10.1,
+      "Humidity": 0.94
+    },
+    "output": "Waterproof jacket, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 8.9,
+      "Humidity": 0.73
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 11.7,
+      "Humidity": 0.83
+    },
+    "output": "Sunglasses, T-shirt, Shorts"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 15.2,
+      "Humidity": 0.61
+    },
+    "output": "Sunglasses, Lightweight Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 9.7,
+      "Humidity": 0.8
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 6.9,
+      "Humidity": 0.77
+    },
+    "output": "Sunglasses, Lightweight sweater"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.1,
+      "Humidity": 0.58
+    },
+    "output": "Sunglasses, Light Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 10.1,
+      "Humidity": 0.67
+    },
+    "output": "Raincoat, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 10.9,
+      "Humidity": 0.76
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 5.4,
+      "Humidity": 0.77
+    },
+    "output": "Warm sweater, Gloves, Scarf"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 7.1,
+      "Humidity": 0.92
+    },
+    "output": "Sunglasses, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 9.7,
+      "Humidity": 0.73
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 3.5,
+      "Humidity": 0.78
+    },
+    "output": "Light jacket, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 8.0,
+      "Humidity": 0.75
+    },
+    "output": "Sweater, Jeans, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 7.3,
+      "Humidity": 0.89
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 11.2,
+      "Humidity": 0.63
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 2.0,
+      "Humidity": 0.91
+    },
+    "output": "Warm hat, Gloves"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 7.4,
+      "Humidity": 0.86
+    },
+    "output": "Sunglasses, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 17.2,
+      "Humidity": 0.37
+    },
+    "output": "Light jacket, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 8.7,
+      "Humidity": 0.9
+    },
+    "output": "T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 11.8,
+      "Humidity": 0.55
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.1,
+      "Humidity": 0.85
+    },
+    "output": "Sunglasses, Hat, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 9.1,
+      "Humidity": 0.76
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 14.0,
+      "Humidity": 0.61
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 3.5,
+      "Humidity": 0.85
+    },
+    "output": "Warm jacket, Gloves"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 25.0,
+      "Humidity": 0.34
+    },
+    "output": "Sunglasses, T-shirt, Shorts"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 11.4,
+      "Humidity": 0.71
+    },
+    "output": "Lightweight jacket, Long-sleeved shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 13.8,
+      "Humidity": 0.84
+    },
+    "output": "Sunglasses, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 7.2,
+      "Humidity": 0.72
+    },
+    "output": "T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 7.2,
+      "Humidity": 0.8
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 8.7,
+      "Humidity": 0.8
+    },
+    "output": "Sunglasses, T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 11.8,
+      "Humidity": 0.63
+    },
+    "output": "Jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 7.1,
+      "Humidity": 0.78
+    },
+    "output": "Waterproof jacket, Umbrella, Sweater"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Foggy",
+      "Precipitation Type": null,
+      "Temperature": 4.1,
+      "Humidity": 0.91
+    },
+    "output": "Sweater, Waterproof Jacket, Gloves"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 11.3,
+      "Humidity": 0.65
+    },
+    "output": "Lightweight jacket, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 20.0,
+      "Humidity": 0.45
+    },
+    "output": "Lightweight Pants, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 8.7,
+      "Humidity": 0.67
+    },
+    "output": "Sunglasses, Umbrella, Waterproof Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 7.7,
+      "Humidity": 0.79
+    },
+    "output": "T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 9.9,
+      "Humidity": 0.88
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 10.2,
+      "Humidity": 0.64
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 9.9,
+      "Humidity": 0.59
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 16.2,
+      "Humidity": 0.41
+    },
+    "output": "Light jacket, Scarf"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Foggy",
+      "Precipitation Type": null,
+      "Temperature": 7.8,
+      "Humidity": 0.94
+    },
+    "output": "Warm Sweater, Waterproof Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 11.8,
+      "Humidity": 0.68
+    },
+    "output": "Sunglasses, T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 15.0,
+      "Humidity": 0.72
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 17.6,
+      "Humidity": 0.63
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.8,
+      "Humidity": 0.63
+    },
+    "output": "Sunglasses, Light Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 17.7,
+      "Humidity": 0.61
+    },
+    "output": "Shorts, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 9.7,
+      "Humidity": 0.66
+    },
+    "output": "Sunglasses, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 10.1,
+      "Humidity": 0.94
+    },
+    "output": "Waterproof jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 11.2,
+      "Humidity": 0.82
+    },
+    "output": "Light jacket, T-shirt, Shorts"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 14.5,
+      "Humidity": 0.8
+    },
+    "output": "Lightweight raincoat, Umbrella, Sneakers"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 20.1,
+      "Humidity": 0.63
+    },
+    "output": "Sunglasses, Hat, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 6.0,
+      "Humidity": 0.83
+    },
+    "output": "Sunglasses, T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 7.0,
+      "Humidity": 0.85
+    },
+    "output": "Sunglasses, Umbrella, Waterproof Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 11.5,
+      "Humidity": 0.83
+    },
+    "output": "Light Jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 16.1,
+      "Humidity": 0.7
+    },
+    "output": "Sunglasses, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 22.6,
+      "Humidity": 0.54
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 11.8,
+      "Humidity": 0.74
+    },
+    "output": "Sunglasses, Lightweight jacket, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 11.3,
+      "Humidity": 0.56
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 11.8,
+      "Humidity": 0.55
+    },
+    "output": "Shorts, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Foggy",
+      "Precipitation Type": null,
+      "Temperature": 3.5,
+      "Humidity": 0.94
+    },
+    "output": "Coat, Gloves, Warm Socks"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Foggy",
+      "Precipitation Type": null,
+      "Temperature": 6.2,
+      "Humidity": 0.9
+    },
+    "output": "Warm Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 3.7,
+      "Humidity": 0.84
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 9.9,
+      "Humidity": 0.72
+    },
+    "output": "Sunglasses, Light Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 9.1,
+      "Humidity": 0.91
+    },
+    "output": "T-shirt, Shorts"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 5.3,
+      "Humidity": 0.86
+    },
+    "output": "Jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 10.6,
+      "Humidity": 0.96
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 7.5,
+      "Humidity": 0.7
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 7.7,
+      "Humidity": 0.75
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 2.5,
+      "Humidity": 0.9
+    },
+    "output": "Warm hat, Gloves"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 5.2,
+      "Humidity": 0.86
+    },
+    "output": "Raincoat, Waterproof Boots"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 7.1,
+      "Humidity": 0.89
+    },
+    "output": "Lightweight Jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Foggy",
+      "Precipitation Type": null,
+      "Temperature": 6.4,
+      "Humidity": 0.95
+    },
+    "output": "Jacket, Gloves, Scarf"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 18.2,
+      "Humidity": 0.68
+    },
+    "output": "Rain jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 16.9,
+      "Humidity": 0.61
+    },
+    "output": "Light jacket, Comfortable pants"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 11.0,
+      "Humidity": 0.85
+    },
+    "output": "Sunglasses, Light Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 9.5,
+      "Humidity": 0.76
+    },
+    "output": "Sunglasses, T-shirt, Shorts"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 7.3,
+      "Humidity": 0.84
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 17.6,
+      "Humidity": 0.69
+    },
+    "output": "Sunglasses, Lightweight jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 14.3,
+      "Humidity": 0.65
+    },
+    "output": "Rain jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 4.8,
+      "Humidity": 0.94
+    },
+    "output": "Waterproof jacket, Trousers"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 4.4,
+      "Humidity": 0.79
+    },
+    "output": "Warm coat, Gloves"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 13.6,
+      "Humidity": 0.57
+    },
+    "output": "Sunglasses, Light jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 19.8,
+      "Humidity": 0.64
+    },
+    "output": "Sunglasses, Lightweight Jacket, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Foggy",
+      "Precipitation Type": null,
+      "Temperature": 8.0,
+      "Humidity": 0.92
+    },
+    "output": "Gloves, Scarf"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 14.6,
+      "Humidity": 0.8
+    },
+    "output": "Sunglasses, Hat, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 10.3,
+      "Humidity": 0.87
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 7.3,
+      "Humidity": 0.84
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 6.6,
+      "Humidity": 0.8
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.4,
+      "Humidity": 0.68
+    },
+    "output": "Sunglasses, Waterproof Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 1.3,
+      "Humidity": 0.86
+    },
+    "output": "T-shirt, Shorts"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 2.8,
+      "Humidity": 0.86
+    },
+    "output": "Warm Coat, Gloves, Scarf"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 9.8,
+      "Humidity": 0.79
+    },
+    "output": "Sunglasses, Light Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 20.3,
+      "Humidity": 0.47
+    },
+    "output": "Sunglasses, Cap, Lightweight Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 6.6,
+      "Humidity": 0.85
+    },
+    "output": "Sunglasses, Hat, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 15.0,
+      "Humidity": 0.52
+    },
+    "output": "Light jacket, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 16.2,
+      "Humidity": 0.43
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 16.2,
+      "Humidity": 0.58
+    },
+    "output": "T-shirt, Shorts"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 6.3,
+      "Humidity": 0.9
+    },
+    "output": "Jacket, Jeans, Sneakers"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 11.2,
+      "Humidity": 0.94
+    },
+    "output": "Sweater, Jeans, Sneakers"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 11.5,
+      "Humidity": 0.85
+    },
+    "output": "Waterproof jacket, Umbrella, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 7.0,
+      "Humidity": 0.73
+    },
+    "output": "Raincoat, Umbrella, Gloves"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 4.8,
+      "Humidity": 0.82
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 15.3,
+      "Humidity": 0.58
+    },
+    "output": "Breathable shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 17.8,
+      "Humidity": 0.6
+    },
+    "output": "Sunglasses, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 8.1,
+      "Humidity": 0.82
+    },
+    "output": "Sunglasses, Umbrella, Lightweight jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 6.8,
+      "Humidity": 0.75
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 17.2,
+      "Humidity": 0.67
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 13.0,
+      "Humidity": 0.68
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 8.5,
+      "Humidity": 0.77
+    },
+    "output": "Rain jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 7.1,
+      "Humidity": 0.91
+    },
+    "output": "Sunglasses, Light Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 1.5,
+      "Humidity": 0.86
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 14.4,
+      "Humidity": 0.79
+    },
+    "output": "Sunglasses, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 17.1,
+      "Humidity": 0.67
+    },
+    "output": "Sunglasses, Umbrella, Waterproof jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 5.2,
+      "Humidity": 0.79
+    },
+    "output": "Light Jacket, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 7.5,
+      "Humidity": 0.8
+    },
+    "output": "Sweater, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 17.9,
+      "Humidity": 0.36
+    },
+    "output": "T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 16.2,
+      "Humidity": 0.52
+    },
+    "output": "Lightweight jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 3.8,
+      "Humidity": 0.86
+    },
+    "output": "Sunglasses, T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 6.3,
+      "Humidity": 0.88
+    },
+    "output": "Raincoat, Umbrella, Water-repellent jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 10.0,
+      "Humidity": 0.7
+    },
+    "output": "T-shirt, Shorts"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 7.5,
+      "Humidity": 0.88
+    },
+    "output": "Rain Jacket, Waterproof Pants"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 8.6,
+      "Humidity": 0.83
+    },
+    "output": "Sunglasses, Hat, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 7.8,
+      "Humidity": 0.96
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 7.9,
+      "Humidity": 0.7
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 13.4,
+      "Humidity": 0.61
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 8.9,
+      "Humidity": 0.74
+    },
+    "output": "Sunglasses, Hat, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Foggy",
+      "Precipitation Type": null,
+      "Temperature": 5.4,
+      "Humidity": 0.88
+    },
+    "output": "Gloves, Waterproof jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 16.7,
+      "Humidity": 0.74
+    },
+    "output": "Sunglasses, Light Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 17.5,
+      "Humidity": 0.56
+    },
+    "output": "Sunglasses, Light Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 1.9,
+      "Humidity": 0.89
+    },
+    "output": "Sunglasses, T-shirt, Shorts"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 10.0,
+      "Humidity": 0.89
+    },
+    "output": "Waterproof jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.3,
+      "Humidity": 0.75
+    },
+    "output": "Sunglasses, Light Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 19.9,
+      "Humidity": 0.46
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 16.2,
+      "Humidity": 0.47
+    },
+    "output": "Sunglasses, Lightweight jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 8.2,
+      "Humidity": 0.83
+    },
+    "output": "T-shirt, Shorts"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 13.5,
+      "Humidity": 0.59
+    },
+    "output": "T-shirt, Shorts"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 6.5,
+      "Humidity": 0.82
+    },
+    "output": "Sunglasses, Gloves, Warm Coat"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 6.3,
+      "Humidity": 0.91
+    },
+    "output": "Sunglasses, Umbrella, Insulated Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 12.4,
+      "Humidity": 0.67
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 12.4,
+      "Humidity": 0.68
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 13.0,
+      "Humidity": 0.62
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 8.3,
+      "Humidity": 0.86
+    },
+    "output": "Sunglasses, T-shirt, Shorts"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 5.6,
+      "Humidity": 0.78
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 11.5,
+      "Humidity": 0.69
+    },
+    "output": "Umbrella, Water-resistant jacket, Gloves"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 1.9,
+      "Humidity": 0.84
+    },
+    "output": "Sunglasses, Hat, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 7.3,
+      "Humidity": 0.78
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 11.9,
+      "Humidity": 0.7
+    },
+    "output": "Waterproof jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 7.9,
+      "Humidity": 0.69
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 4.7,
+      "Humidity": 0.9
+    },
+    "output": ""
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 16.4,
+      "Humidity": 0.69
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.7,
+      "Humidity": 0.72
+    },
+    "output": "Sunglasses, Hat, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Foggy",
+      "Precipitation Type": null,
+      "Temperature": 4.9,
+      "Humidity": 0.93
+    },
+    "output": ""
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 19.0,
+      "Humidity": 0.47
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Foggy",
+      "Precipitation Type": null,
+      "Temperature": 3.9,
+      "Humidity": 0.9
+    },
+    "output": "Warm Coat, Gloves, Scarf"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 25.0,
+      "Humidity": 0.45
+    },
+    "output": "Sunglasses, Lightweight Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 19.1,
+      "Humidity": 0.5
+    },
+    "output": "Light jacket, Umbrella, Rain boots"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 7.3,
+      "Humidity": 0.82
+    },
+    "output": "T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 6.9,
+      "Humidity": 0.81
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.2,
+      "Humidity": 0.64
+    },
+    "output": "Sunglasses, Hat, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 15.2,
+      "Humidity": 0.5
+    },
+    "output": "Lightweight sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 4.7,
+      "Humidity": 0.8
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 3.9,
+      "Humidity": 0.84
+    },
+    "output": "Sunglasses, Hat"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 20.0,
+      "Humidity": 0.45
+    },
+    "output": "T-shirt, Shorts"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 13.7,
+      "Humidity": 0.84
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 21.0,
+      "Humidity": 0.38
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 13.9,
+      "Humidity": 0.75
+    },
+    "output": "Rain jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 17.2,
+      "Humidity": 0.68
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 21.1,
+      "Humidity": 0.38
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 10.1,
+      "Humidity": 0.76
+    },
+    "output": "Raincoat, Umbrella, Waterproof shoes"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 4.7,
+      "Humidity": 0.83
+    },
+    "output": "Sunglasses, Light Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 8.0,
+      "Humidity": 0.7
+    },
+    "output": "T-shirt, Sneakers"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 7.2,
+      "Humidity": 0.79
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 19.0,
+      "Humidity": 0.26
+    },
+    "output": "Long-sleeved shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 13.4,
+      "Humidity": 0.77
+    },
+    "output": "Light jacket, Umbrella, Comfortable shoes"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 10.9,
+      "Humidity": 0.9
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 11.7,
+      "Humidity": 0.7
+    },
+    "output": "Light jacket, Scarf"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 10.0,
+      "Humidity": 0.65
+    },
+    "output": "Long-sleeved shirt, Jeans, Sneakers"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 11.5,
+      "Humidity": 0.69
+    },
+    "output": "Sunglasses, T-shirt, Shorts"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 14.6,
+      "Humidity": 0.6
+    },
+    "output": "Sunglasses, T-shirt, Shorts"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 10.7,
+      "Humidity": 0.64
+    },
+    "output": "Sunglasses, Lightweight Jacket, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 8.6,
+      "Humidity": 0.79
+    },
+    "output": "Sunglasses, T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 13.0,
+      "Humidity": 0.54
+    },
+    "output": "T-shirt, Shorts"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 7.8,
+      "Humidity": 0.9
+    },
+    "output": "Waterproof jacket, Umbrella, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Foggy",
+      "Precipitation Type": null,
+      "Temperature": 3.5,
+      "Humidity": 0.92
+    },
+    "output": "Warm hat, Gloves"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 6.1,
+      "Humidity": 0.84
+    },
+    "output": "Light jacket, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 9.8,
+      "Humidity": 0.76
+    },
+    "output": "Lightweight Rain Jacket, Waterproof Boots"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 11.2,
+      "Humidity": 0.96
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 4.6,
+      "Humidity": 0.95
+    },
+    "output": "Sunglasses, Gloves"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 9.4,
+      "Humidity": 0.69
+    },
+    "output": "T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 3.6,
+      "Humidity": 0.86
+    },
+    "output": "Warm coat, Gloves"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 7.3,
+      "Humidity": 0.86
+    },
+    "output": "Light jacket, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 7.4,
+      "Humidity": 0.88
+    },
+    "output": "Lightweight jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 8.2,
+      "Humidity": 0.76
+    },
+    "output": "Lightweight jacket, Scarf"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 4.3,
+      "Humidity": 0.93
+    },
+    "output": "Sunglasses, Scarf"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 10.5,
+      "Humidity": 0.69
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 10.5,
+      "Humidity": 0.75
+    },
+    "output": "Sunglasses, Light jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 5.3,
+      "Humidity": 0.93
+    },
+    "output": "Waterproof jacket, T-shirt, Pants"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 12.7,
+      "Humidity": 0.56
+    },
+    "output": "Sunglasses, T-shirt, Shorts"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 10.5,
+      "Humidity": 0.65
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 6.3,
+      "Humidity": 0.74
+    },
+    "output": "Sunglasses, Lightweight jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 5.7,
+      "Humidity": 0.8
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 10.6,
+      "Humidity": 0.85
+    },
+    "output": "Sunglasses, T-shirt, Hoodie"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 10.9,
+      "Humidity": 0.71
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 13.2,
+      "Humidity": 0.7
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 9.0,
+      "Humidity": 0.79
+    },
+    "output": "Rain jacket, Waterproof pants, Hoodie"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 19.8,
+      "Humidity": 0.63
+    },
+    "output": "Lightweight sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 7.1,
+      "Humidity": 0.83
+    },
+    "output": "Sunglasses, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 3.8,
+      "Humidity": 0.81
+    },
+    "output": "Woolen sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 6.5,
+      "Humidity": 0.83
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 8.3,
+      "Humidity": 0.8
+    },
+    "output": "Sunglasses, Hat"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 13.2,
+      "Humidity": 0.63
+    },
+    "output": "Sunglasses, Lightweight Long-sleeved Shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 8.3,
+      "Humidity": 0.79
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 17.9,
+      "Humidity": 0.57
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.8,
+      "Humidity": 0.64
+    },
+    "output": "Sunglasses, Lightweight Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.7,
+      "Humidity": 0.79
+    },
+    "output": "Sunglasses, Light Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 8.7,
+      "Humidity": 0.78
+    },
+    "output": "Lightweight Jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 10.2,
+      "Humidity": 0.65
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 6.7,
+      "Humidity": 0.9
+    },
+    "output": "T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 10.7,
+      "Humidity": 0.72
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 7.4,
+      "Humidity": 0.79
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 6.9,
+      "Humidity": 0.76
+    },
+    "output": "Sweater, Jeans, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 11.6,
+      "Humidity": 0.73
+    },
+    "output": "Short-sleeved shirt, Shorts"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 9.1,
+      "Humidity": 0.67
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.7,
+      "Humidity": 0.85
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 9.6,
+      "Humidity": 0.71
+    },
+    "output": "Sunglasses, Hat, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 21.0,
+      "Humidity": 0.38
+    },
+    "output": "Lightweight pants, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Foggy",
+      "Precipitation Type": null,
+      "Temperature": 4.2,
+      "Humidity": 0.87
+    },
+    "output": "Warm sweater, Waterproof coat, Comfortable boots"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 8.8,
+      "Humidity": 0.83
+    },
+    "output": "Sunglasses, Light jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 17.1,
+      "Humidity": 0.65
+    },
+    "output": "T-shirt, Jeans, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 7.4,
+      "Humidity": 0.9
+    },
+    "output": "Sunglasses, T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 20.0,
+      "Humidity": 0.66
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 3.6,
+      "Humidity": 0.85
+    },
+    "output": "T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 18.9,
+      "Humidity": 0.61
+    },
+    "output": "Lightweight jacket, Comfortable shoes"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 9.7,
+      "Humidity": 0.73
+    },
+    "output": "Sunglasses, T-shirt, Shorts"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 12.5,
+      "Humidity": 0.92
+    },
+    "output": "Jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 17.9,
+      "Humidity": 0.6
+    },
+    "output": "Sunglasses, Light Jacket, Scarf"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 6.0,
+      "Humidity": 0.86
+    },
+    "output": "Sunglasses, Light Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 4.7,
+      "Humidity": 0.8
+    },
+    "output": "Warm hat, Gloves"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 9.8,
+      "Humidity": 0.77
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 17.3,
+      "Humidity": 0.38
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 11.6,
+      "Humidity": 0.71
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 11.6,
+      "Humidity": 0.85
+    },
+    "output": "Sunglasses, Light Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 10.6,
+      "Humidity": 0.87
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 1.9,
+      "Humidity": 0.87
+    },
+    "output": "Sunglasses, Sun hat, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 5.1,
+      "Humidity": 0.84
+    },
+    "output": "Warm coat, Gloves, Scarf"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 4.9,
+      "Humidity": 0.79
+    },
+    "output": "Sunglasses, T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 17.2,
+      "Humidity": 0.59
+    },
+    "output": "T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 2.9,
+      "Humidity": 0.81
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 16.7,
+      "Humidity": 0.72
+    },
+    "output": "Sunglasses, Hat, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 12.8,
+      "Humidity": 0.96
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 11.3,
+      "Humidity": 1.0
+    },
+    "output": "Breathable top, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 16.4,
+      "Humidity": 0.55
+    },
+    "output": "Sunglasses, Hat, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 2.2,
+      "Humidity": 0.87
+    },
     "output": "Warm Coat, Gloves"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 13.5,
+      "Humidity": 0.72
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 10.1,
+      "Humidity": 0.75
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 7.6,
+      "Humidity": 0.87
+    },
+    "output": "Waterproof jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 14.9,
+      "Humidity": 0.7
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 7.4,
+      "Humidity": 0.78
+    },
+    "output": "Sunglasses, Lightweight Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 7.9,
+      "Humidity": 0.8
+    },
+    "output": "Umbrella, Waterproof jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.0,
+      "Humidity": 0.67
+    },
+    "output": "Raincoat, Umbrella, Sweater"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 11.6,
+      "Humidity": 0.8
+    },
+    "output": "Sunglasses, Light jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 6.3,
+      "Humidity": 0.79
+    },
+    "output": "Waterproof jacket, Umbrella, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 3.5,
+      "Humidity": 0.9
+    },
+    "output": "Sunglasses, Hoodie"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 8.5,
+      "Humidity": 0.76
+    },
+    "output": "Sunglasses, Light Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 15.7,
+      "Humidity": 0.59
+    },
+    "output": "Hat, Light Jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Foggy",
+      "Precipitation Type": null,
+      "Temperature": 6.7,
+      "Humidity": 0.86
+    },
+    "output": "Warm coat, Gloves, Scarf"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 14.7,
+      "Humidity": 0.8
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 17.8,
+      "Humidity": 0.42
+    },
+    "output": "Lightweight jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 6.9,
+      "Humidity": 0.93
+    },
+    "output": "Light Jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Foggy",
+      "Precipitation Type": null,
+      "Temperature": 4.2,
+      "Humidity": 0.93
+    },
+    "output": "Warm Coat, Gloves, Scarf"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 18.9,
+      "Humidity": 0.54
+    },
+    "output": "Lightweight pants, Sneakers, Light jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 5.3,
+      "Humidity": 0.83
+    },
+    "output": "Waterproof jacket, Scarf, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 10.0,
+      "Humidity": 0.82
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 10.7,
+      "Humidity": 0.73
+    },
+    "output": "Sunglasses, T-shirt, Light jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 1.9,
+      "Humidity": 0.88
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 8.1,
+      "Humidity": 0.7
+    },
+    "output": "T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 12.5,
+      "Humidity": 0.79
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 8.2,
+      "Humidity": 0.8
+    },
+    "output": "Sunglasses, Umbrella, Light Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 13.6,
+      "Humidity": 0.6
+    },
+    "output": "Rain jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 10.0,
+      "Humidity": 0.87
+    },
+    "output": "T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 10.1,
+      "Humidity": 0.59
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 3.4,
+      "Humidity": 0.85
+    },
+    "output": "Warm Coat, Gloves"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 10.2,
+      "Humidity": 0.9
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 10.0,
+      "Humidity": 0.9
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 13.5,
+      "Humidity": 0.71
+    },
+    "output": "Sunglasses, Waterproof jacket, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 7.0,
+      "Humidity": 0.92
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 17.0,
+      "Humidity": 0.55
+    },
+    "output": "Sunglasses, Lightweight jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 16.3,
+      "Humidity": 0.55
+    },
+    "output": "Sunglasses, Light Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 7.8,
+      "Humidity": 0.75
+    },
+    "output": "Waterproof jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 7.7,
+      "Humidity": 0.9
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 11.7,
+      "Humidity": 0.6
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 7.4,
+      "Humidity": 0.89
+    },
+    "output": "Jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 6.7,
+      "Humidity": 0.77
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 10.6,
+      "Humidity": 0.87
+    },
+    "output": "Jacket, Scarf"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 7.2,
+      "Humidity": 0.82
+    },
+    "output": "T-shirt, Long Pants"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 4.8,
+      "Humidity": 0.84
+    },
+    "output": "Sunglasses, Warm Sweater"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 11.6,
+      "Humidity": 0.66
+    },
+    "output": "Light jacket, Umbrella, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Foggy",
+      "Precipitation Type": null,
+      "Temperature": 7.5,
+      "Humidity": 0.84
+    },
+    "output": "Gloves, Scarf"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 15.1,
+      "Humidity": 0.79
+    },
+    "output": "T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 9.3,
+      "Humidity": 0.69
+    },
+    "output": "T-shirt, Shorts"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 6.9,
+      "Humidity": 0.92
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 6.3,
+      "Humidity": 0.77
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Foggy",
+      "Precipitation Type": null,
+      "Temperature": 6.1,
+      "Humidity": 0.95
+    },
+    "output": "Warm Socks, Waterproof Jacket, Gloves"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 13.5,
+      "Humidity": 0.82
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 10.9,
+      "Humidity": 0.72
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 22.1,
+      "Humidity": 0.56
+    },
+    "output": "Shorts, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Foggy",
+      "Precipitation Type": null,
+      "Temperature": 6.1,
+      "Humidity": 0.95
+    },
+    "output": ""
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 11.4,
+      "Humidity": 0.75
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 10.2,
+      "Humidity": 0.86
+    },
+    "output": "Shorts, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 15.0,
+      "Humidity": 0.62
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 9.4,
+      "Humidity": 0.77
+    },
+    "output": "T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.0,
+      "Humidity": 0.68
+    },
+    "output": "Sunglasses, Hat"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 16.9,
+      "Humidity": 0.75
+    },
+    "output": "Sunglasses, Light Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 4.3,
+      "Humidity": 0.96
+    },
+    "output": "Warm Socks, Insulated Boots"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Foggy",
+      "Precipitation Type": null,
+      "Temperature": 4.8,
+      "Humidity": 0.91
+    },
+    "output": "Dress in layers, Waterproof jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 7.5,
+      "Humidity": 0.84
+    },
+    "output": "Sunglasses, T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 9.9,
+      "Humidity": 0.86
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 9.9,
+      "Humidity": 0.79
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 7.3,
+      "Humidity": 0.76
+    },
+    "output": "Short-sleeved shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 17.2,
+      "Humidity": 0.42
+    },
+    "output": "Sunglasses, T-shirt, Shorts"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 9.6,
+      "Humidity": 0.66
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.1,
+      "Humidity": 0.68
+    },
+    "output": "Light Jacket, Scarf"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Foggy",
+      "Precipitation Type": null,
+      "Temperature": 7.1,
+      "Humidity": 0.88
+    },
+    "output": "Scarf, Gloves"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.2,
+      "Humidity": 0.7
+    },
+    "output": "Sunglasses, T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 10.1,
+      "Humidity": 0.87
+    },
+    "output": "Sunglasses, Umbrella, Sweater"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 5.3,
+      "Humidity": 0.85
+    },
+    "output": "Waterproof jacket, umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 10.6,
+      "Humidity": 0.82
+    },
+    "output": "Sunglasses, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 9.3,
+      "Humidity": 0.89
+    },
+    "output": "Raincoat, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 11.7,
+      "Humidity": 0.94
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 7.3,
+      "Humidity": 0.71
+    },
+    "output": "Sunglasses, Hat, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 4.5,
+      "Humidity": 0.86
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 6.6,
+      "Humidity": 0.74
+    },
+    "output": "Sunglasses, Scarf"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Foggy",
+      "Precipitation Type": null,
+      "Temperature": 3.7,
+      "Humidity": 0.95
+    },
+    "output": "Warm coat, Gloves"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 7.3,
+      "Humidity": 0.93
+    },
+    "output": "Raincoat, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Foggy",
+      "Precipitation Type": null,
+      "Temperature": 6.0,
+      "Humidity": 0.86
+    },
+    "output": "Warm hat, Gloves"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 9.0,
+      "Humidity": 0.89
+    },
+    "output": "Jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.7,
+      "Humidity": 0.57
+    },
+    "output": "Hat, Sweater, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Foggy",
+      "Precipitation Type": null,
+      "Temperature": 4.4,
+      "Humidity": 0.9
+    },
+    "output": "Warm Coat, Gloves"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 4.2,
+      "Humidity": 0.96
+    },
+    "output": "Warm Coat, Gloves, Scarf"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 11.5,
+      "Humidity": 0.73
+    },
+    "output": "Waterproof jacket, Umbrella, Warm sweater"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 16.3,
+      "Humidity": 0.32
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 13.2,
+      "Humidity": 0.8
+    },
+    "output": "Lightweight waterproof jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.6,
+      "Humidity": 0.58
+    },
+    "output": "Lightweight Raincoat, Umbrella, Socks"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 7.1,
+      "Humidity": 0.8
+    },
+    "output": "Raincoat, Umbrella, Waterproof Boots"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 4.1,
+      "Humidity": 0.84
+    },
+    "output": "Sunglasses, T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 10.0,
+      "Humidity": 0.69
+    },
+    "output": "Wool Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Foggy",
+      "Precipitation Type": null,
+      "Temperature": 4.1,
+      "Humidity": 0.96
+    },
+    "output": "Warm hat, Gloves"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 14.1,
+      "Humidity": 0.82
+    },
+    "output": "Light jacket, Comfortable shoes"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 8.2,
+      "Humidity": 0.77
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 6.7,
+      "Humidity": 0.94
+    },
+    "output": "Sunglasses, T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 5.8,
+      "Humidity": 0.9
+    },
+    "output": "T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 3.7,
+      "Humidity": 0.83
+    },
+    "output": "Dress, Boots"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 5.9,
+      "Humidity": 0.82
+    },
+    "output": "Lightweight jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 11.9,
+      "Humidity": 0.67
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 6.3,
+      "Humidity": 0.94
+    },
+    "output": "Waterproof jacket, Umbrella, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Foggy",
+      "Precipitation Type": null,
+      "Temperature": 8.5,
+      "Humidity": 0.92
+    },
+    "output": ""
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 10.9,
+      "Humidity": 0.72
+    },
+    "output": "Sunglasses, Water-repellent jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 12.8,
+      "Humidity": 0.67
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 21.2,
+      "Humidity": 0.42
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 16.1,
+      "Humidity": 0.57
+    },
+    "output": "Lightweight jacket, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 6.2,
+      "Humidity": 0.92
+    },
+    "output": "Warm Sweater, Waterproof Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 2.1,
+      "Humidity": 0.84
+    },
+    "output": "Jacket, Scarf"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 11.1,
+      "Humidity": 0.64
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 12.0,
+      "Humidity": 0.68
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 11.1,
+      "Humidity": 0.72
+    },
+    "output": "Comfortable Jeans, Lightweight Sweater"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 14.9,
+      "Humidity": 0.77
+    },
+    "output": "Sunglasses, Light jacket, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 6.2,
+      "Humidity": 0.86
+    },
+    "output": "Waterproof jacket, Umbrella, Insulating layers"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 16.1,
+      "Humidity": 0.65
+    },
+    "output": "Sunglasses, Water-Resistant Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 9.4,
+      "Humidity": 0.82
+    },
+    "output": "Waterproof Jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 8.4,
+      "Humidity": 0.75
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 12.0,
+      "Humidity": 0.68
+    },
+    "output": "T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Foggy",
+      "Precipitation Type": null,
+      "Temperature": 6.7,
+      "Humidity": 0.96
+    },
+    "output": "Gloves, Scarf"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 9.8,
+      "Humidity": 0.91
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 8.4,
+      "Humidity": 0.77
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 14.0,
+      "Humidity": 0.77
+    },
+    "output": "T-shirt, Jeans, Sneakers"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 9.9,
+      "Humidity": 0.77
+    },
+    "output": "Sunglasses, Umbrella, Waterproof Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.0,
+      "Humidity": 0.62
+    },
+    "output": "Sunglasses, Light Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 8.7,
+      "Humidity": 0.64
+    },
+    "output": "Sunglasses, Hat, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.0,
+      "Humidity": 0.87
+    },
+    "output": "Lightweight jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 9.2,
+      "Humidity": 0.77
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 10.4,
+      "Humidity": 0.74
+    },
+    "output": "Breathable jacket, long pants"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 18.0,
+      "Humidity": 0.71
+    },
+    "output": "Rain Jacket, Waterproof Pants"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 9.1,
+      "Humidity": 0.77
+    },
+    "output": "Raincoat, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 16.0,
+      "Humidity": 0.75
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 17.8,
+      "Humidity": 0.4
+    },
+    "output": "Comfortable shoes, Light jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 9.0,
+      "Humidity": 0.82
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 15.1,
+      "Humidity": 0.59
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.5,
+      "Humidity": 0.52
+    },
+    "output": "T-shirt, Jeans, Sunglasses"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 5.9,
+      "Humidity": 0.8
+    },
+    "output": "Waterproof jacket, Umbrella, Gloves"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.7,
+      "Humidity": 0.85
+    },
+    "output": "Sunglasses, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 17.7,
+      "Humidity": 0.65
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Foggy",
+      "Precipitation Type": null,
+      "Temperature": 8.1,
+      "Humidity": 0.84
+    },
+    "output": "Warm coat, Gloves"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 15.7,
+      "Humidity": 0.59
+    },
+    "output": "Raincoat, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 17.9,
+      "Humidity": 0.37
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 9.0,
+      "Humidity": 0.93
+    },
+    "output": "Breathable top, Layers, Comfortable shoes"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.1,
+      "Humidity": 0.87
+    },
+    "output": "Sunglasses, Lightweight jacket, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 8.9,
+      "Humidity": 0.76
+    },
+    "output": ""
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 6.1,
+      "Humidity": 0.89
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.6,
+      "Humidity": 0.43
+    },
+    "output": "Sunglasses, Scarf, Long-sleeved shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 8.2,
+      "Humidity": 0.73
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 16.1,
+      "Humidity": 0.63
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 4.5,
+      "Humidity": 0.84
+    },
+    "output": "Sunglasses, T-shirt, Sneakers"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 6.4,
+      "Humidity": 0.91
+    },
+    "output": "Sunglasses, Lightweight Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 19.0,
+      "Humidity": 0.64
+    },
+    "output": "Sunglasses, Hoodie"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 10.7,
+      "Humidity": 0.78
+    },
+    "output": "T-shirt, Sweater, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 14.9,
+      "Humidity": 0.43
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 13.1,
+      "Humidity": 0.67
+    },
+    "output": "Rain jacket, Umbrella, Waterproof shoes"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 20.1,
+      "Humidity": 0.43
+    },
+    "output": "Sunglasses, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 1.5,
+      "Humidity": 0.85
+    },
+    "output": "Sunglasses, Hat, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 11.1,
+      "Humidity": 0.76
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 11.1,
+      "Humidity": 0.61
+    },
+    "output": "T-shirt, Shorts"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 13.9,
+      "Humidity": 0.59
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.3,
+      "Humidity": 0.58
+    },
+    "output": "Lightweight Rain Jacket, Umbrella, Breathable Shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Foggy",
+      "Precipitation Type": null,
+      "Temperature": 5.9,
+      "Humidity": 0.92
+    },
+    "output": "Dress in layers, wear a scarf"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 14.2,
+      "Humidity": 0.54
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 13.7,
+      "Humidity": 0.78
+    },
+    "output": "Sunglasses, Lightweight Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 17.8,
+      "Humidity": 0.28
+    },
+    "output": "Sunglasses, Light jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.4,
+      "Humidity": 0.72
+    },
+    "output": "Sunglasses, Waterproof Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 2.5,
+      "Humidity": 0.93
+    },
+    "output": "Warm Jacket, Gloves, Scarf"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 14.0,
+      "Humidity": 0.56
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 12.2,
+      "Humidity": 0.64
+    },
+    "output": "Sunglasses, T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 10.7,
+      "Humidity": 0.7
+    },
+    "output": "T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 15.4,
+      "Humidity": 0.77
+    },
+    "output": "Sunglasses, Waterproof Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 20.9,
+      "Humidity": 0.6
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 21.3,
+      "Humidity": 0.43
+    },
+    "output": "Sunglasses, Waterproof Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Foggy",
+      "Precipitation Type": null,
+      "Temperature": 6.2,
+      "Humidity": 0.94
+    },
+    "output": "Breathable layers, Waterproof jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 7.0,
+      "Humidity": 0.71
+    },
+    "output": "Sunglasses, T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.1,
+      "Humidity": 0.7
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 6.4,
+      "Humidity": 0.78
+    },
+    "output": "Sunglasses, Light Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 3.9,
+      "Humidity": 0.81
+    },
+    "output": "Hat, Gloves, Warm Coat"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 14.2,
+      "Humidity": 0.55
+    },
+    "output": "Sunglasses, Light Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 8.5,
+      "Humidity": 0.84
+    },
+    "output": "Waterproof jacket, Scarf"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 15.0,
+      "Humidity": 0.64
+    },
+    "output": "Waterproof jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 9.7,
+      "Humidity": 0.83
+    },
+    "output": "Sunglasses, Light Rain Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 8.0,
+      "Humidity": 0.68
+    },
+    "output": "Light Jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 12.6,
+      "Humidity": 0.67
+    },
+    "output": "Sunglasses, T-shirt, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 5.5,
+      "Humidity": 0.8
+    },
+    "output": "Sunglasses, Gloves"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 7.2,
+      "Humidity": 0.8
+    },
+    "output": "Raincoat, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.7,
+      "Humidity": 0.79
+    },
+    "output": "Lightweight jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 6.3,
+      "Humidity": 0.75
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Clear",
+      "Precipitation Type": null,
+      "Temperature": 7.0,
+      "Humidity": 0.84
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Foggy",
+      "Precipitation Type": null,
+      "Temperature": 7.0,
+      "Humidity": 0.96
+    },
+    "output": "Hat, Gloves"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 7.2,
+      "Humidity": 0.78
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 7.2,
+      "Humidity": 0.74
+    },
+    "output": "Waterproof jacket, Umbrella, Trousers"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 9.0,
+      "Humidity": 0.76
+    },
+    "output": "Sunglasses, Light jacket, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 9.4,
+      "Humidity": 0.75
+    },
+    "output": "Jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 19.1,
+      "Humidity": 0.67
+    },
+    "output": "Sunglasses, T-shirt, Light Jacket"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Partly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.5,
+      "Humidity": 0.71
+    },
+    "output": "Sunglasses, T-shirt"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 14.0,
+      "Humidity": 0.62
+    },
+    "output": "Lightweight Raincoat, Breathable T-shirt, Comfortable Walking Shoes"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 7.8,
+      "Humidity": 0.9
+    },
+    "output": "Rain jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.9,
+      "Humidity": 0.61
+    },
+    "output": "Light jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 12.8,
+      "Humidity": 0.85
+    },
+    "output": "Jacket, Scarf"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 5.8,
+      "Humidity": 0.92
+    },
+    "output": "Waterproof jacket, Umbrella"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Overcast",
+      "Precipitation Type": null,
+      "Temperature": 7.7,
+      "Humidity": 0.85
+    },
+    "output": "Sweater, Jeans"
+  },
+  {
+    "instruction": "Give an outfit recommendation based on the provided weather data.",
+    "input": {
+      "Summary": "Mostly Cloudy",
+      "Precipitation Type": null,
+      "Temperature": 11.1,
+      "Humidity": 0.71
+    },
+    "output": "Sunglasses, Umbrella"
   }
 ]

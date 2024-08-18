@@ -40,10 +40,6 @@
   text-transform: lowercase;
 }
 
-.Log button:active {
-  transform: scale(0.95);
-}
-
 .Log button:focus {
   outline: none;
 }
@@ -54,7 +50,7 @@
 }
 
 .Log .sign-up-button {
-  background-color: #851d6b;
+  background-color: #00382f;
   border-color: none; 
   color: #6cd4d2; 
 }
@@ -70,6 +66,42 @@
   border-color: none;
   color: #f26a65; 
 }
+
+/* Additional Styles */
+.gender-selection {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.age-selection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.gender-button, .age-button {
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #6cd4d2;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.gender-button.selected, .age-button.selected {
+  background-color:#ffed66;
+  color: #851d6b;
+}
+
+.gender-button:focus, .age-button:focus {
+  outline: none;
+}
+
 
 .Log .sign-up-button.ghost {
   background-color: #ffed66; 

@@ -168,11 +168,20 @@ header button {
 .model {
     flex: 1;
     border-radius: 20px;
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     background-color: #FCF0CC;
     margin: 260px 120px 120px 120px;
+    padding: 0 40px;
+}
+
+.outfit-description {
+    list-style-type: disc; 
+    padding-left: 40px; 
+    margin-top: 0; 
+    padding-right:40px;
 }
 
 h1 {

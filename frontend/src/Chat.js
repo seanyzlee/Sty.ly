@@ -1,32 +1,29 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Chat.css';
+import outfit from './images/outfit.png'; // Initial outfit image
+import outfit2 from './images/outfit2.png'; // New outfit image
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faHouse,
   faVolumeHigh,
-  faVolumeXmark, // New icon for muted state
+  faVolumeXmark,
   faWrench,
   faClockRotateLeft,
   faMaximize,
   faMinimize,
   faUser,
+  faShirt,
 } from '@fortawesome/free-solid-svg-icons';
 import { faSpotify } from '@fortawesome/free-brands-svg-icons';
 import { faHeart as faHeartRegular } from '@fortawesome/free-regular-svg-icons';
 import { faHeart as faHeartSolid } from '@fortawesome/free-solid-svg-icons';
 import axios from 'axios';
-import {Skeleton} from 'antd';
-
-//TODO:
-// 1. Center the model image in the middle of the screen
-// 2. Make sure the FIRST useEffect() hook is running only once every hour and not every time the site is refreshed
-// 3. Make sure that the skeleton is displayed properly. Example is: https://ant.design/components/skeleton
 
 function Chat() {
   const navigate = useNavigate();
   const [isFullScreen, setIsFullScreen] = useState(false);
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [isFilled, setIsFilled] = useState(false);
   const [isPopupVisible, setIsPopupVisible] = useState(false);
   const [summary, setSummary] = useState('');
@@ -35,10 +32,15 @@ function Chat() {
   const [humidity, setHumidity] = useState(0);
   const [weatherSong, setWeatherSong] = useState('');
   const [isSpotifySidebarVisible, setIsSpotifySidebarVisible] = useState(false);
-  const [isLoading, setIsLoading] = useState(false);
-  const [isMuted, setIsMuted] = useState(false); // New state for mute control
-  const [bgRemovedBase64Image, setBgRemovedBase64Image] = useState('');
-  const [outfit, setOutfit] = useState('');
+  const [isMuted, setIsMuted] = useState(false);
+  const [outfitImage, setOutfitImage] = useState(outfit); // Initial outfit image
+  const [outfitDescription, setOutfitDescription] = useState([
+    'classic baseball cap – stylish and functional, provides shade and adds a touch of classic charm to your outfit on sunny days.',
+    'stylish sunglasses – high-quality lenses to protect your eyes while enhancing your look with a modern flair.',
+    'leather jacket – a timeless piece that combines ruggedness with sophistication, offering warmth and an edgy aesthetic.',
+    'pleated skirt – gracefully flows with every step, providing an elegant silhouette and versatile styling options for any occasion.',
+    'black leather heels – elegantly designed to elevate your style, featuring a sleek, polished finish that complements both casual and formal attire.',
+  ]);
 
   const weatherSongs = {
     Sunny: "https://open.spotify.com/embed/artist/1tCFyVMKDPW0AuVH2wLwon?utm_source=generator",
@@ -46,76 +48,29 @@ function Chat() {
     Snow: "https://open.spotify.com/embed/playlist/3AndBZRL0O0tpSBKurlBAD?utm_source=generator"
   };
 
-
-  // MAKE THIS RUN ONCE EVERY HOUR AND NOT RUN WHEN SITE IS RESTARTED
-  // MAKE THIS RUN ONCE EVERY HOUR AND NOT RUN WHEN SITE IS RESTARTED
   useEffect(() => {
     const fetchData = async () => {
       try {
-        setIsLoading(true);
-        const [weatherResponse, outfitIdeaResponse, base64OutfitImage, latestBase64OutfitImage] = await Promise.all([
-          // axios.get('http://localhost:5050/getLatestWeather'),
-          // axios.get('http://localhost:5050/askModelOutfits'),
-          // axios.get('http://localhost:5050/generateModelOutfits'),
-          // axios.get('http://localhost:5050/getLatestBased64Image')
-
-        ]);
-  
-        const data = weatherResponse.data;
-        const outfitIdeaData = outfitIdeaResponse.data;
-        const base64Image = latestBase64OutfitImage.data;
-
-  
-        console.log('Data: ', data);
-        console.log('Outfit Idea: ', outfitIdeaData);
-        console.log('Base64 Image: ', base64Image);
-
-        setOutfit(outfitIdeaData.output);
+        const response = await axios.get('http://localhost:5050/getLatestWeather');
+        const data = response.data;
         setTemperature(data[0].Temperature);
         setPrecipitation(data[0].PrecipitationType);
         setHumidity(data[0].Humidity);
         setSummary(data[0].Summary);
-        setBgRemovedBase64Image(base64Image[0].base64Image);
-  
-  
+
         const weatherCondition = data[0].PrecipitationType;
         setWeatherSong(weatherSongs[weatherCondition] || weatherSongs['Sunny']); // Default to Sunny if no match
       } catch (error) {
         console.error('Error fetching data: ', error);
-      } finally {
-        setIsLoading(false);
       }
     };
-  
-    // Run fetchData immediately
+
     fetchData();
-  
-    // Set interval to run fetchData every hour (3600000 milliseconds)
-    const intervalId = setInterval(fetchData, 3600000);
-  
-    // Cleanup interval on component unmount
-    return () => clearInterval(intervalId);
-  }, []); // Empty dependency array ensures this runs only once
+  }, [weatherSongs]);
 
   const toggleHeart = () => {
     setIsFilled(!isFilled);
   };
-  
-  async function handleRefresh() {
-    try{
-      setIsLoading(true);
-      await axios.get('http://localhost:5050/generateModelOutfits')
-      const response = await axios.get('http://localhost:5050/getLatestBased64Image');
-      const base64Image = response.data;
-      await setBgRemovedBase64Image(base64Image[0].base64Image);
-      console.log('Base64 Image: ', base64Image);
-      await setIsLoading(false);
-
-    } catch (error) {
-      console.error('Error fetching data: ', error);      
-    }
-
-  }
 
   useEffect(() => {
     const handleFullScreenChange = () => {
@@ -166,18 +121,36 @@ function Chat() {
     setIsMuted(!isMuted);
   };
 
-  if (isLoading) {
-    return <Skeleton height="100vh" width="100%" />;
-  }
+  const handleShirtClick = () => {
+    setOutfitImage(outfit2); // Change image
+    setOutfitDescription([
+      'turtle neck short sleeve – comfortable and stylish, perfect for layering and keeping warm on cooler days. Its soft fabric adds a cozy touch to any ensemble.',
+      'leather coat mid-thigh – offers a sleek and sophisticated look while providing extra warmth and enhancing both comfort and coverage.',
+      'denim skirt – versatile and classic, easy to dress up or down for various occasions as it effortlessly with different accessories.',
+      'y2k belt – adds a touch of retro flair, complementing modern outfits with a nostalgic twist of the 2000s.',
+      'knee high heeled boots – stylish and elongating, ideal for both formal and casual wear while offering practical comfort and support.'
+    ]); // Update description
+  };
 
   return (
     <div className={`container-chat ${isSidebarOpen ? 'sidebar-open' : ''}`}>
       <aside className={`sidebar ${isSidebarOpen ? '' : 'sidebar-closed'}`} aria-label="Sidebar">
-       
+        {weatherSong && (
+          <iframe
+            style={{ borderRadius: '12px', marginTop: '56rem', marginLeft: '0.5rem' }}
+            src={weatherSong}
+            width="90%"
+            height="100"
+            allowFullScreen
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+            title="Weather Song"
+          />
+        )}
       </aside>
       <header className="header">
         <div className="top">
-          <h1>sty.ly</h1>
+          <h1>sty.ly 💭</h1>
           <div className="account">
             <button className="header-button" onClick={handleHomeClick}>
               <FontAwesomeIcon icon={faHouse} />
@@ -197,7 +170,7 @@ function Chat() {
             <div className="weather-data">
               <button>precipitation</button>
               <p>{precipitation ? precipitation : 'Sunny'}</p>
-            </div> 
+            </div>
             <div className="weather-data">
               <button>temperature</button>
               <p>{temperature}°C</p>
@@ -206,17 +179,6 @@ function Chat() {
               <button>humidity</button>
               <p>{humidity * 100}%</p>
             </div>
-
-            <div className="weather-data">
-              <button>outfit recommendation</button>
-              <p>{outfit}</p>
-            </div>
-          </div>
-
-          <div className='refresh-button'>
-
-            <button className="header-button" onClick={handleRefresh}>refresh</button>
-            
           </div>
 
           <div className="control-buttons">
@@ -236,9 +198,15 @@ function Chat() {
         </div>
       </header>
 
-    
-    
-    
+      <button
+        style={{ color: '#9adfee' }}
+        className="sidebar-button toggle"
+        onClick={toggleSidebar}
+        aria-label={isSidebarOpen ? 'Close sidebar' : 'Open sidebar'}
+      >
+        <FontAwesomeIcon icon={faClockRotateLeft} />
+      </button>
+
       {isPopupVisible && (
         <div className="popup">
           no current updates available. stay tuned :)
@@ -246,47 +214,39 @@ function Chat() {
       )}
 
       <div className="model" style={{ marginBottom: isSpotifySidebarVisible ? '120px' : '60px' }}>
-      <div>
-  {bgRemovedBase64Image && (
-    <img 
-      src={`data:image/png;base64,${bgRemovedBase64Image}`}  
-      style={{zIndex: 1, marginBottom: '100px', marginRight: '200px'}} 
-      width="100%" 
-      height="0%" 
-    />
-  )}
-</div>
-     
+        <img src={outfitImage} style={{ width: '175px', height: 'auto', borderRadius: '15px' }} alt="Outfit" className="outfit-image" />
+        <div className="outfit-description">
+          {outfitDescription.map((item, index) => (
+            <p key={index}>{item}</p>
+          ))}
+        </div>
+        <button onClick={handleShirtClick} className="shirt-button" style={{right:'20px'}}>
+        <FontAwesomeIcon icon={faShirt} />
+      </button>
       </div>
 
-     
-
-
-
-
-      
-
       <div className="spotify-container">
-        <button 
-          style={{ fontSize: '35px' }} 
-          className="spotify-button" 
+        <button
+          style={{ fontSize: '35px' }}
+          className="spotify-button"
           onClick={handleSpotifyClick}
         >
           <FontAwesomeIcon icon={faSpotify} />
         </button>
         {isSpotifySidebarVisible && (
           <div className="spotify-sidebar">
-            <iframe 
+            <iframe
               src={weatherSong}
               allow="encrypted-media"
               title="Spotify Playlist"
               style={{ borderRadius: '12px', width: '300px', height: '80px' }} // Adjust size as needed
             ></iframe>
           </div>
-        )}
-      </div> 
+)}
+
     </div>
-    )
+    </div>
+  );
 }
 
 export default Chat;

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./SignInForm.css"; // Ensure this CSS file is correctly imported
+import "./SignInForm.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
@@ -8,7 +8,9 @@ function SignInForm() {
   const [formType, setFormType] = useState("signIn");
   const [state, setState] = useState({
     email: "",
-    password: ""
+    password: "",
+    gender: "",
+    ageCategory: ""
   });
 
   const navigate = useNavigate();
@@ -23,11 +25,13 @@ function SignInForm() {
 
   const handleOnSubmit = (evt) => {
     evt.preventDefault();
-    const { email, password } = state;
-    alert(`You are logging in with email: ${email} and password: ${password}`);
+    const { email, password, gender, ageCategory } = state;
+    alert(`You are logging in with email: ${email}, password: ${password}, gender: ${gender}, and age category: ${ageCategory}`);
     setState({
       email: "",
-      password: ""
+      password: "",
+      gender: "",
+      ageCategory: ""
     });
   };
 
@@ -36,7 +40,7 @@ function SignInForm() {
   };
 
   const closeForm = () => {
-    navigate('/chat'); // Navigate to the chat page or any other route
+    navigate('/chat');
   };
 
   return (
@@ -62,6 +66,68 @@ function SignInForm() {
               value={state.password}
               onChange={handleChange}
             />
+            {formType === "signUp" && (
+              <>
+                <div className="gender-selection">
+                  <button
+                    type="button"
+                    className={`gender-button ${state.gender === "female" ? "selected" : ""}`}
+                    name="gender"
+                    value="female"
+                    onClick={handleChange}
+                  >
+                    Female
+                  </button>
+                  <button
+                    type="button"
+                    className={`gender-button ${state.gender === "male" ? "selected" : ""}`}
+                    name="gender"
+                    value="male"
+                    onClick={handleChange}
+                  >
+                    Male
+                  </button>
+                </div>
+                <div className="age-selection">
+                  <button
+                    type="button"
+                    className={`age-button ${state.ageCategory === "18-25" ? "selected" : ""}`}
+                    name="ageCategory"
+                    value="18-25"
+                    onClick={handleChange}
+                  >
+                    18-25
+                  </button>
+                  <button
+                    type="button"
+                    className={`age-button ${state.ageCategory === "26-45" ? "selected" : ""}`}
+                    name="ageCategory"
+                    value="26-45"
+                    onClick={handleChange}
+                  >
+                    26-45
+                  </button>
+                  <button
+                    type="button"
+                    className={`age-button ${state.ageCategory === "46-65" ? "selected" : ""}`}
+                    name="ageCategory"
+                    value="46-65"
+                    onClick={handleChange}
+                  >
+                    46-65
+                  </button>
+                  <button
+                    type="button"
+                    className={`age-button ${state.ageCategory === "66+" ? "selected" : ""}`}
+                    name="ageCategory"
+                    value="66+"
+                    onClick={handleChange}
+                  >
+                    66+
+                  </button>
+                </div>
+              </>
+            )}
             <button className={`button ${formType === "signIn" ? "sign-in-button" : "sign-up-button"}`} type="submit">
               {formType === "signIn" ? "Sign In" : "Sign Up"}
             </button>
@@ -75,7 +141,7 @@ function SignInForm() {
               </button>
             </div>
             <div className="overlay-panel overlay-right">
-              <h2>hi friend! enter your personal details and start your journey with us today.</h2>
+              <h2>Hi friend! Enter your personal details and start your journey with us today.</h2>
               <button className="ghost sign-up-button" id="signUp" onClick={toggleForm}>
                 Sign Up
               </button>

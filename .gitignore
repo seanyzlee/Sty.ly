@@ -23,3 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 ML/model.gguf
+ML/venv_auto1111sdk/Lib
+ML/venv_auto1111sdk/Scripts

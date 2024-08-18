@@ -226,22 +226,23 @@ function Chat() {
       </div>
 
       <div className="spotify-container">
-        <button
-          style={{ fontSize: '35px' }}
-          className="spotify-button"
-          onClick={handleSpotifyClick}
-        >
-          <FontAwesomeIcon icon={faSpotify} />
-        </button>
-        {isSpotifySidebarVisible && (
-          <div className="spotify-sidebar">
-            <iframe
-              src={weatherSong}
-              allow="encrypted-media"
-              title="Spotify Playlist"
-              style={{ borderRadius: '12px', width: '300px', height: '80px' }} // Adjust size as needed
-            ></iframe>
-          </div>
+    <button
+      style={{ fontSize: '35px' }}
+      className="spotify-button"
+      onClick={handleSpotifyClick}
+    >
+      <FontAwesomeIcon icon={faSpotify} />
+    </button>
+    {isSpotifySidebarVisible && (
+      <div className="spotify-sidebar">
+        <iframe
+          src={weatherSong}
+          allow="encrypted-media"
+          title="Spotify Playlist"
+          style={{ borderRadius: '12px', width: '300px', height: '80px' }} // Adjust size as needed
+        ></iframe>
+      </div> 
+
 )}
 
     </div>

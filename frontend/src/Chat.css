@@ -177,6 +177,10 @@ header button {
     padding: 0 40px;
 }
 
+.model.sidebar-open {
+    padding: 0 20px;
+}
+
 .outfit-description {
     list-style-type: disc; 
     padding-left: 40px; 

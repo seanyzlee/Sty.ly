@@ -37,7 +37,11 @@ const getAndPostWeatherData = async () => {
 
         // Process weather data
         const processedWeatherData = await processWeatherData(weatherData);
-        postProcessedData(processedWeatherData); 
+        console.log(processedWeatherData)
+
+        // Post processed data to the backend
+        
+        await postProcessedData(processedWeatherData);
         return processedWeatherData;
 
 
@@ -97,7 +101,7 @@ const getWeatherCondition = (weatherCode) => {
         case 86:
             return "Snow"
         default:
-            return null // For codes not related to rain or snow
+            return "Sunny" // For codes not related to rain or snow
 
     }
 };
@@ -118,7 +122,7 @@ const getPrecipitationType = (weatherCode) => {
     } else if ([45, 48].includes(weatherCode)) {
         return 'Fog';
     } else {
-        return null;
+        return "Sunny";
     }
 }
 
@@ -136,7 +140,13 @@ const processWeatherData = async (data) => {
 }
 const postProcessedData = async (data) => {
     try {
-        const response = await axios.post('http://localhost:5050/addWeather', data, {
+        const precipitationType = data.PrecipitationType
+        const response = await axios.post('http://localhost:5050/addWeather', {
+            Summary: data.Summary,
+            PrecipitationType: precipitationType,
+            Temperature: data.Temperature,
+            Humidity: data.Humidity
+        }, {
             headers: {
                 'Content-Type': 'application/json'
             }
@@ -147,6 +157,7 @@ const postProcessedData = async (data) => {
     }
 };
 
+module.exports = { getAndPostWeatherData };
 
 
 

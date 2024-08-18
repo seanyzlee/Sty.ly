@@ -6,9 +6,9 @@ const WeatherSchema = new mongoose.Schema({
         required: true
     },
 
-    "Precipitation Type": {
+    "PrecipitationType": {
         type: String,
-        required: false
+        required: true
     },
     "Temperature": {
         type: Number,

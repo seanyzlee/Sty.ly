@@ -77,3 +77,4 @@ def generate_image(outfit=""):
 
     return img_base64
 
+

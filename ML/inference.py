@@ -3,6 +3,7 @@ import requests
 from flask_cors import CORS
 import ollama
 from langchain.prompts import ChatPromptTemplate
+from venv_auto1111sdk import stable_diffusion
 
 PROMPT_TEMPLATE = """
 Based on the following weather data, please annotate the data to create a new dataset by providing an outfit recommendation.
@@ -42,5 +43,11 @@ def ollama_func(weather_data):
         format='json'
     )['message']['content']
 
+@app.route('/api/generateImage', methods=['GET'])
+def generate_outfit_image():
+    response = requests.get("http://localhost:5050/askModelOutfits")
+    response_json = response.json()
+    return stable_diffusion.generate_image(response_json['output'])
+    
 if __name__ == '__main__':
     app.run(port=5025, debug=True)

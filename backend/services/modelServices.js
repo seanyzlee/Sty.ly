@@ -29,4 +29,9 @@ const askOutfitPrediction = async (data) => {
     return response.data;
 }
 
-module.exports = {getLatestWeatherData}
+const getOutfitImage = async () => {
+    const response = await axios.get("http://localhost:5025/api/generateImage")
+    return response.data;
+}
+
+module.exports = {getLatestWeatherData, getOutfitImage}

@@ -158,10 +158,3 @@ const postProcessedData = async (data) => {
 };
 
 module.exports = { getAndPostWeatherData };
-
-
-
-
-
-
-module.exports = { getAndPostWeatherData };

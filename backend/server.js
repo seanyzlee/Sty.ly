@@ -27,7 +27,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.use("/", require('./routes/weatherRoute'));
-
+app.use("/", require('./routes/modelRoute'));
 const server = app.listen(PORT, () => {
   console.log("Server is running on Port:", PORT);
 });

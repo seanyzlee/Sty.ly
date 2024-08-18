@@ -26,7 +26,7 @@ from a windows powershell:
 import os
 import base64
 from io import BytesIO
-from auto1111sdk import civit_download, RealEsrganPipeline, StableDiffusionPipeline, EsrganPipeline
+from auto1111sdk import civit_download, StableDiffusionPipeline
 from PIL import Image
 import torch
 
@@ -55,6 +55,7 @@ def generate_image(outfit=""):
     height          = 768 
     width           = 512
     steps           = 20 
+    output_path     = "generated_backup.png"
     cfg_scale       = 7.5
     seed            = -1 
     sampler_name    = 'Euler' 
@@ -68,10 +69,11 @@ def generate_image(outfit=""):
                         prompt     = prompt,     height    = height,    width        = width, 
                         negative_prompt = negative_prompt,              steps        = steps)
 
-    image = output[0]
+    output[0].save(output_path)
     buffered = BytesIO()
-    image.save(buffered, format="PNG")
+    #image.save(buffered, format="PNG")
     img_base64 = base64.b64encode(buffered.getvalue()).decode("utf-8")
+    print(f'generated base64 img {img_base64}')
 
     del pipe
 

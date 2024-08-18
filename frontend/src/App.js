@@ -34,7 +34,7 @@ function HomePage() {
         </div>
       </div>
       <div className="more-info">
-        <h3>Whether you’re heading out with friends, hitting up a party, or just living your best life, our platform's got your back. We make outfit coordination a breeze by syncing your style with the forecast, so you can step out feeling confident, no matter the season.</h3>
+        <h3>whether you’re heading out with friends, hitting up a party, or just living your best life, our platform's got your back. we make outfit coordination a breeze by syncing your style with the forecast, so you can step out feeling confident, no matter the season.</h3>
       </div>
     </div>
   );

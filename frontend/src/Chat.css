@@ -17,7 +17,6 @@ button {
     padding: 10px 40px;
     background-color: #c3ebeb;
     position: fixed;
-    /* Fix the header at the top */
     top: 0;
     left: 0;
     right: 0;
@@ -29,7 +28,6 @@ button {
     align-items: center;
     border-bottom: 3px solid #345a62;
     gap: 10px;
-    /* Border between top and bottom sections */
 }
 
 .account {
@@ -42,25 +40,23 @@ button {
     display: flex;
     gap: 10px;
     margin-left: auto;
-    /* Align header buttons to the right */
 }
 
 .popup {
     position: fixed;
-    top: 200px;
+    top: 150px;
     right: 20px;
     background-color: #1d3162;
     color: #fff;
     padding: 10px;
     border-radius: 5px;
     font-size: 14px;
-    z-index: 20;
-  }
-  
+    z-index: 1002;
+}
+
 .weather-controls {
     display: flex;
     justify-content: space-between;
-    /* Ensure buttons are spaced out evenly */
     align-items: center;
 }
 
@@ -68,7 +64,6 @@ button {
     display: flex;
     gap: 10px;
     padding-top: 10px;
-    padding-bottom: 40px;
 }
 
 .weather-buttons,
@@ -78,7 +73,28 @@ button {
 }
 
 .control-buttons {
-    gap: 10px;
+    margin-left: auto;
+}
+
+.weather-section {
+    display: flex;
+    width: 100%;
+    margin: 20px auto;
+    align-items: center;
+}
+
+.weather-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.weather-data p {
+    text-transform: lowercase;
+}
+
+.control-buttons {
     margin-left: auto;
 }
 
@@ -92,6 +108,13 @@ button {
 
 header button {
     color: #5c3707;
+}
+
+.weather-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 0 0 0;
 }
 
 .weather-buttons button {
@@ -134,7 +157,7 @@ header button {
 
 .sidebar-button {
     left: 40px;
-    top: 220px;
+    top: 230px;
     position: absolute;
     cursor: pointer;
     margin-right: auto;
@@ -149,10 +172,23 @@ header button {
     align-items: center;
     justify-content: center;
     background-color: #FCF0CC;
-    margin: 200px 120px 0 120px;
-    margin: 260px 120px 80px 120px;
+    margin: 260px 120px 120px 120px;
 }
 
 h1 {
     color: #07255c;
+}
+
+.spotify-sidebar {
+    position: fixed;
+    right: 120px;
+    bottom: 20px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+}
+
+.spotify-sidebar iframe {
+    border: none;
+    bottom: 0px;
 }

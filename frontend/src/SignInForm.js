@@ -48,7 +48,6 @@ function SignInForm() {
           </button>
           <form onSubmit={handleOnSubmit}>
             <h1>{formType === "signIn" ? "Sign In" : "Sign Up"}</h1>
-            {formType === "signIn"}
             <input
               type="email"
               placeholder="email"
@@ -63,20 +62,21 @@ function SignInForm() {
               value={state.password}
               onChange={handleChange}
             />
-            <button type="submit" >{formType === "signIn" ? "Sign In" : "Sign Up"}</button>
+            <button className={`button ${formType === "signIn" ? "sign-in-button" : "sign-up-button"}`} type="submit">
+              {formType === "signIn" ? "Sign In" : "Sign Up"}
+            </button>
           </form>
         </div>
         <div className="overlay-container">
           <div className="overlay">
             <div className="overlay-panel overlay-left">
-              <button className="ghost" id="signIn" onClick={toggleForm}>
+              <button className="ghost sign-in-button" id="signIn" onClick={toggleForm}>
                 Sign In
               </button>
             </div>
             <div className="overlay-panel overlay-right">
-              <h1> Hello, Friend!</h1>
-              <p>Enter your personal details and start journey with us</p>
-              <button className="ghost" id="signUp" onClick={toggleForm}>
+              <h2>hi friend! enter your personal details and start your journey with us today.</h2>
+              <button className="ghost sign-up-button" id="signUp" onClick={toggleForm}>
                 Sign Up
               </button>
             </div>

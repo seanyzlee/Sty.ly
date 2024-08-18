@@ -30,8 +30,19 @@ const saveOutfitBase64Image = async (req,res) => {
     res.json({message: "HELLO WORLD"});
 }
 
-
 }
 
-module.exports = { askOutfitRecommendation, saveOutfitBase64Image};
+// DOESNT MATTER
+const getLatestBased64Image = async (req, res) => {
+    try {
+        const image = await ImageInfo.find().sort({createdAt: -1}).limit(1);
+        res.json(image);
+    } catch (error) {
+        res.json({message: error});
+    }
 
+
+
+
+}
+module.exports = { askOutfitRecommendation, saveOutfitBase64Image, getLatestBased64Image };

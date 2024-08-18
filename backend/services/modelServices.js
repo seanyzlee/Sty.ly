@@ -1,3 +1,4 @@
+require("dotenv").config();
 const axios = require("axios");
 
 const getLatestWeatherData = async () => {
@@ -34,4 +35,6 @@ const getOutfitImage = async () => {
     return response.data;
 }
 
-module.exports = {getLatestWeatherData, getOutfitImage}
+module.exports = { getLatestWeatherData, getOutfitImage }
+
+
